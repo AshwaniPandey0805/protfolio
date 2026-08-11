@@ -1,0 +1,5 @@
+import "/home/pandey/Desktop/Ashwani Pandey Resume/vue_press_resume/portfolio/node_modules/@vuepress/highlighter-helper/dist/client/styles/base.css"
+import "/home/pandey/Desktop/Ashwani Pandey Resume/vue_press_resume/portfolio/node_modules/@vuepress/plugin-prismjs/dist/client/styles/nord.css"
+import "/home/pandey/Desktop/Ashwani Pandey Resume/vue_press_resume/portfolio/node_modules/@vuepress/highlighter-helper/dist/client/styles/line-numbers.css"
+import "/home/pandey/Desktop/Ashwani Pandey Resume/vue_press_resume/portfolio/node_modules/@vuepress/highlighter-helper/dist/client/styles/notation-highlight.css"
+import "/home/pandey/Desktop/Ashwani Pandey Resume/vue_press_resume/portfolio/node_modules/@vuepress/highlighter-helper/dist/client/styles/code-block-title.css"
