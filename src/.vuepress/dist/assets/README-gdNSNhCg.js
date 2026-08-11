@@ -1,1 +1,0 @@
-import{a as e,r as t,t as n}from"./app-D-qs3fho.js";var r=JSON.parse(`{"path":"/","title":"","lang":"en-US","frontmatter":{"layout":"HomeLayout"},"git":{},"filePathRelative":"README.md"}`),i={name:`README.md`};function a(n,r,i,a,o,s){return e(),t(`div`)}var o=n(i,[[`render`,a]]);export{r as _pageData,o as default};
