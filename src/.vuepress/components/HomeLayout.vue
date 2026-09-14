@@ -5,18 +5,18 @@
     <header class="home-navbar">
       <div class="home-navbar__inner">
         <!-- Logo + site name -->
-        <a class="home-navbar__logo" href="/">
+        <a class="home-navbar__logo" :href="withBase('/')">
           <span class="home-navbar__site-name">Ashwani Kumar Pandey</span>
         </a>
 
         <!-- Nav links -->
         <nav class="home-navbar__links" aria-label="site navigation">
-          <a href="/about.html">About Me</a>
-          <a href="/skills.html">Skills</a>
-          <a href="/experience.html">Experience</a>
-          <a href="/projects.html">Projects</a>
-          <a href="/education.html">Education</a>
-          <a href="/certifications.html">Certifications</a>
+          <a :href="withBase('/about.html')">About Me</a>
+          <a :href="withBase('/skills.html')">Skills</a>
+          <a :href="withBase('/experience.html')">Experience</a>
+          <a :href="withBase('/projects.html')">Projects</a>
+          <a :href="withBase('/education.html')">Education</a>
+          <a :href="withBase('/certifications.html')">Certifications</a>
         </nav>
 
         <!-- Dark mode toggle -->
@@ -60,7 +60,7 @@
               Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
             </p>
             <p class="vp-hero-actions">
-              <a class="vp-hero-action-button primary" href="/about.html" aria-label="Explore Profile">
+              <a class="vp-hero-action-button primary" :href="withBase('/about.html')" aria-label="Explore Profile">
                 Explore Portfolio
               </a>
               <a class="vp-hero-action-button secondary"
@@ -78,7 +78,7 @@
                 <!-- If profile image provided, it will render here -->
                 <img
                   v-if="profileImage"
-                  :src="profileImage"
+                  :src="withBase(profileImage)"
                   alt="Ashwani Kumar Pandey"
                   class="hero-profile-image"
                 />
@@ -176,7 +176,7 @@
               <div v-for="exp in experienceList" :key="exp.company" class="home-overview-card">
                 <div class="home-overview-card__header">
                   <div class="home-overview-card__identity">
-                    <img :src="exp.logo" :alt="exp.company + ' logo'" class="home-company-logo" loading="lazy" />
+                    <img :src="withBase(exp.logo)" :alt="exp.company + ' logo'" class="home-company-logo" loading="lazy" />
                     <div class="home-overview-card__titles">
                       <h3 class="home-overview-card__title">{{ exp.role }}</h3>
                       <div class="home-overview-card__meta">
@@ -196,7 +196,7 @@
                 </div>
 
                 <div class="home-overview-card__footer">
-                  <a :href="exp.link" class="home-link-btn" :aria-label="'View complete details for ' + exp.role + ' at ' + exp.company">
+                  <a :href="withBase(exp.link)" class="home-link-btn" :aria-label="'View complete details for ' + exp.role + ' at ' + exp.company">
                     <span>View More</span>
                     <svg viewBox="0 0 20 20" fill="currentColor" class="home-link-icon" aria-hidden="true">
                       <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -207,7 +207,7 @@
             </div>
 
             <div class="home-section__more">
-              <a href="/experience.html" class="home-btn-outline">
+              <a :href="withBase('/experience.html')" class="home-btn-outline">
                 <span>View Complete Work History &amp; Achievements</span>
                 <span class="arrow">→</span>
               </a>
@@ -238,7 +238,7 @@
                 </div>
 
                 <div class="home-overview-card__footer">
-                  <a :href="proj.link" class="home-link-btn" :aria-label="'View complete details for ' + proj.title">
+                  <a :href="withBase(proj.link)" class="home-link-btn" :aria-label="'View complete details for ' + proj.title">
                     <span>View More</span>
                     <svg viewBox="0 0 20 20" fill="currentColor" class="home-link-icon" aria-hidden="true">
                       <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -249,7 +249,7 @@
             </div>
 
             <div class="home-section__more">
-              <a href="/projects.html" class="home-btn-outline">
+              <a :href="withBase('/projects.html')" class="home-btn-outline">
                 <span>Explore All Projects &amp; System Specs</span>
                 <span class="arrow">→</span>
               </a>
@@ -268,8 +268,8 @@
                 </div>
                 <p>Read about my background, core software engineering values, and soft skills.</p>
                 <nav aria-label="Profile links">
-                  <a href="/about.html">About Me</a>
-                  <a href="/skills.html">Technical Skills</a>
+                  <a :href="withBase('/about.html')">About Me</a>
+                  <a :href="withBase('/skills.html')">Technical Skills</a>
                 </nav>
               </div>
 
@@ -281,8 +281,8 @@
                 </div>
                 <p>Explore my employment history at Webkul, Rudra Innovative, BrainGrid, and Code Brew Labs.</p>
                 <nav aria-label="Experience links">
-                  <a href="/experience.html">Work Experience</a>
-                  <a href="/projects.html">Key Projects</a>
+                  <a :href="withBase('/experience.html')">Work Experience</a>
+                  <a :href="withBase('/projects.html')">Key Projects</a>
                 </nav>
               </div>
 
@@ -294,8 +294,8 @@
                 </div>
                 <p>View my educational qualifications (B.Tech IT - CGPA 7.5) and professional credentials.</p>
                 <nav aria-label="Education and Certifications links">
-                  <a href="/education.html">Education Details</a>
-                  <a href="/certifications.html">Certifications</a>
+                  <a :href="withBase('/education.html')">Education Details</a>
+                  <a :href="withBase('/certifications.html')">Certifications</a>
                 </nav>
               </div>
 
@@ -311,6 +311,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { withBase } from '@vuepress/client'
 
 const isDark = ref(false)
 
