@@ -15,11 +15,10 @@ This is the source code for my professional developer portfolio website. Built u
 ---
 
 ## ✨ Features
-1. **Interactive Skills Carousel**: A dynamic, two-row sliding carousel on the landing page showing core technology badges (PHP, Laravel, Magento 2, Spring Boot, Postgres, GraphQL, React, Node, etc.).
+1. **Interactive Skills Carousel**: A dynamic, two-row sliding carousel on the landing page showing core technology badges (PHP, Laravel, Magento 2, Postgres, GraphQL, React, Node, etc.).
 2. **Dynamic Dark/Light Mode**: Full theme toggle integration that updates document attributes dynamically and persists user settings in localStorage.
 3. **Structured Portfolio Navigation**: Clear navbar and sidebar categories grouping about info, detailed tech skills, chronological experience, credentials (education & certificates), and featured projects.
-4. **Interactive Action Menu**: Dropdown tool on content pages allowing users to copy the page link or print/export the page cleanly as a PDF.
-5. **Breadcrumbs Navigation**: Automatically resolves route trees to display interactive breadcrumbs on document sub-pages.
+4. **Breadcrumbs Navigation**: Automatically resolves route trees to display interactive breadcrumbs on document sub-pages.
 
 ---
 
@@ -36,7 +35,7 @@ portfolio/
     ├── experience.md              # Professional work history
     ├── projects.md                # E-commerce extensions & web projects
     ├── education.md               # B.Tech & schooling credentials
-    ├── certifications.md          # E-Commerce & Spring Boot certificates
+    ├── certifications.md          # E-Commerce & Cloud Backend certificates
     └── .vuepress/
         ├── client.js              # Global client-side interactions & layouts setup
         ├── config.js              # Routing, metadata, and navbar/sidebar menus

@@ -1,10 +1,10 @@
 # Hi there, I'm Ashwani Kumar Pandey! 👋
 
-### Backend Software Engineer | PHP, Laravel & Magento 2 Specialist | Spring Boot Enthusiast
+### Backend Software Engineer | PHP, Laravel & Magento 2 Specialist
 
 ![Portfolio Preview](portfolio-preview.png)
 
-Backend Software Engineer with hands-on professional experience in **PHP, Laravel & Adobe Commerce (Magento 2)**, and a solid foundation in **Core Java, Spring Boot, and Microservices**. I specialize in building highly performant e-commerce integrations, designing robust GraphQL/REST APIs, optimizing database operations, and writing end-to-end automation scripts.
+Backend Software Engineer with hands-on professional experience in **PHP, Laravel & Adobe Commerce (Magento 2)**. I specialize in building highly performant e-commerce integrations, designing robust GraphQL/REST APIs, optimizing database operations, and writing end-to-end automation scripts.
 
 ---
 
@@ -25,11 +25,6 @@ Backend Software Engineer with hands-on professional experience in **PHP, Larave
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
   <img src="https://img.shields.io/badge/Magento_2-EE672F?style=for-the-badge&logo=magento&logoColor=white" alt="Magento 2" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  
-  <!-- Java & Frameworks -->
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white" alt="Spring Security" />
   
   <!-- Databases & API -->
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />

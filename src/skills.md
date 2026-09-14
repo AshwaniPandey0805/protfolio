@@ -8,9 +8,8 @@ A comprehensive overview of my programming languages, frameworks, developer tool
 
 | Category | Skills & Frameworks |
 | :--- | :--- |
-| **Backend Languages** | PHP (OOP), Java (Core & Advanced), C++, JavaScript (ES6+), Node.js (Runtime) |
+| **Backend Languages** | PHP (OOP), C++, JavaScript (ES6+), Node.js (Runtime) |
 | **PHP Ecosystem** | Laravel, Adobe Commerce / Magento 2 (Custom extension development) |
-| **Java Ecosystem** | Spring, Spring Boot, Spring Microservices |
 | **JavaScript Ecosystem** | Node.js (MERN Backend), Express.js |
 
 ---
@@ -43,7 +42,7 @@ A comprehensive overview of my programming languages, frameworks, developer tool
 ## Testing & Automation
 
 * **Browser-based Testing**: Playwright (end-to-end user-journey testing, custom test scripts for Magento marketplace modules)
-* **Unit Testing**: Basic PHPUnit and JUnit verification
+* **Unit Testing**: Basic PHPUnit verification
 
 ---
 

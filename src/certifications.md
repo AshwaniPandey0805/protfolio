@@ -12,14 +12,6 @@ Professional certifications, credentials, and course completions.
 
 ---
 
-## Java & Spring Boot Ecosystem
-
-### Java Spring Boot & Microservices Completion
-* **Description**: Comprehensive training focusing on REST API development, JPA, Spring Security, Spring Cloud Discovery (Eureka), API Gateway, and configuration servers.
-* **Details**: Practical development of microservices communication patterns using REST templates and Feign clients.
-
----
-
 ## Web Development & Cloud Services
 
 ### AWS Fundamentals & S3 Management

@@ -1,6 +1,6 @@
 # About Me
 
-Backend Software Engineer with hands-on professional experience in **PHP, Laravel & Adobe Commerce Magento 2**, and a solid foundation in **Core Java, Spring, Spring Boot, and Microservices**. Comfortable working across backend frameworks and API-driven architectures, with strong fundamentals in design patterns, API integrations, and collaborative software development.
+Backend Software Engineer with hands-on professional experience in **PHP, Laravel & Adobe Commerce Magento 2**. Comfortable working across backend frameworks and API-driven architectures, with strong fundamentals in design patterns, API integrations, and collaborative software development.
 
 ---
 
@@ -18,7 +18,7 @@ Backend Software Engineer with hands-on professional experience in **PHP, Larave
 
 ## Professional Objectives
 
-- **Backend Architecture & Integration**: Develop secure, decoupled, and highly performant APIs (REST and GraphQL) using PHP (Laravel/Magento) and Java (Spring Boot).
+- **Backend Architecture & Integration**: Develop secure, decoupled, and highly performant APIs (REST and GraphQL) using PHP (Laravel/Magento).
 - **Performance Tuning**: Analyze bottleneck spots, implement advanced caching strategies, run background processes asynchronously, and optimize SQL queries for low latency and high scalability.
 - **Robust Testing**: Verify system integrations and write clean automated tests (such as Playwright scripts) to ensure high-quality software releases.
 - **Collaborative Engineering**: Follow modern MVC/MVVM patterns, clean-code methodologies, Git flow, and Agile practices.

@@ -55,21 +55,6 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "Java & Spring Boot Ecosystem",
-        "slug": "java-spring-boot-ecosystem",
-        "link": "#java-spring-boot-ecosystem",
-        "children": [
-          {
-            "level": 3,
-            "title": "Java Spring Boot & Microservices Completion",
-            "slug": "java-spring-boot-microservices-completion",
-            "link": "#java-spring-boot-microservices-completion",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
         "title": "Web Development & Cloud Services",
         "slug": "web-development-cloud-services",
         "link": "#web-development-cloud-services",

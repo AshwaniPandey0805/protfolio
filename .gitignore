@@ -5,9 +5,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # VuePress build files
-.vuepress/.temp/
-.vuepress/.cache/
-.vuepress/dist/
+**/.vuepress/.temp/
+**/.vuepress/.cache/
+**/.vuepress/dist/
 
 # IDE files
 .idea/

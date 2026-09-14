@@ -51,7 +51,7 @@
 
       <!-- Hero -->
       <header class="vp-hero">
-        <span class="vp-hero-pretitle">BACKEND ENGINEER · PHP · MAGENTO 2 · JAVA &amp; SPRING BOOT</span>
+        <span class="vp-hero-pretitle">BACKEND ENGINEER · PHP · LARAVEL · MAGENTO 2</span>
         <h1 id="main-title">Ashwani Kumar Pandey</h1>
         <p class="vp-hero-description">
           Backend Software Engineer specializing in scalable e-commerce extension development, API design (REST/GraphQL), session &amp; database optimizations, and robust backend integrations.
@@ -180,8 +180,6 @@ const technologies = [
   { name: 'PHP', subtitle: 'Language Core', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
   { name: 'Laravel', subtitle: 'MVC Framework', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg' },
   { name: 'Magento 2', subtitle: 'Adobe Commerce', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg' },
-  { name: 'Java', subtitle: 'Core & OOPs', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-  { name: 'Spring Boot', subtitle: 'Microservices', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
   { name: 'PostgreSQL', subtitle: 'Relational DB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
   { name: 'MySQL', subtitle: 'Relational DB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
   { name: 'GraphQL', subtitle: 'API Query Lang', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' },

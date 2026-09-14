@@ -14,7 +14,7 @@ Academic background and milestones.
   - Computer Networks
   - Operating Systems
   - Database Management Systems (DBMS)
-  - Languages: C, C++, Java
+  - Languages: C, C++
 
 ---
 
