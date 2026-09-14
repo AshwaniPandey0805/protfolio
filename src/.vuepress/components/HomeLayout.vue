@@ -49,23 +49,69 @@
     <!-- ── Main home content ───────────────────────────── -->
     <div class="vp-home doc-is-home">
 
-      <!-- Hero -->
+      <!-- Hero (Split Layout: Left Info, Right Image Container) -->
       <header class="vp-hero">
-        <span class="vp-hero-pretitle">BACKEND SOFTWARE DEVELOPER · NODE.JS · AI &amp; RAG SYSTEMS · LARAVEL</span>
-        <h1 id="main-title">Ashwani Kumar Pandey</h1>
-        <p class="vp-hero-description">
-          Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
-        </p>
-        <p class="vp-hero-actions">
-          <a class="vp-hero-action-button primary" href="/about.html" aria-label="Explore Profile">
-            Explore Portfolio
-          </a>
-          <a class="vp-hero-action-button secondary"
-             href="mailto:ashwanipandey679@gmail.com"
-             aria-label="Contact Email">
-            Contact Me ✉
-          </a>
-        </p>
+        <div class="vp-hero-inner">
+          <!-- Left: Profile & Headline -->
+          <div class="vp-hero-content">
+            <span class="vp-hero-pretitle">BACKEND SOFTWARE DEVELOPER · NODE.JS · AI &amp; RAG SYSTEMS · LARAVEL</span>
+            <h1 id="main-title">Ashwani Kumar Pandey</h1>
+            <p class="vp-hero-description">
+              Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
+            </p>
+            <p class="vp-hero-actions">
+              <a class="vp-hero-action-button primary" href="/about.html" aria-label="Explore Profile">
+                Explore Portfolio
+              </a>
+              <a class="vp-hero-action-button secondary"
+                 href="mailto:ashwanipandey679@gmail.com"
+                 aria-label="Contact Email">
+                Contact Me ✉
+              </a>
+            </p>
+          </div>
+
+          <!-- Right: Profile Image Container / Placeholder -->
+          <div class="vp-hero-image-col">
+            <div class="hero-image-card">
+              <div class="hero-image-inner">
+                <!-- If profile image provided, it will render here -->
+                <img
+                  v-if="profileImage"
+                  :src="profileImage"
+                  alt="Ashwani Kumar Pandey"
+                  class="hero-profile-image"
+                />
+                <!-- Placeholder container displayed until photo is provided -->
+                <div v-else class="hero-image-placeholder">
+                  <div class="placeholder-glow"></div>
+                  <div class="placeholder-icon-circle">
+                    <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                  </div>
+                  <div class="placeholder-text-group">
+                    <span class="placeholder-title">Profile Photo</span>
+                    <span class="placeholder-subtitle">Image container placeholder</span>
+                  </div>
+                  <div class="placeholder-badge-ready">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                    <span>Ready for your photo</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Status Badge -->
+              <div class="hero-experience-badge">
+                <span class="experience-dot"></span>
+                <span class="experience-badge-text">2+ Years Exp</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
 
       <!-- Content wrapper -->
@@ -267,6 +313,9 @@
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 
 const isDark = ref(false)
+
+// Profile image source
+const profileImage = ref('/images/profile.jpeg')
 
 const technologies = [
   { name: 'Node.js', subtitle: 'Backend Runtime', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
