@@ -118,6 +118,95 @@
             </div>
           </section>
 
+          <!-- ── Professional Experience Overview ───────────────────── -->
+          <section class="home-section" aria-labelledby="home-experience-title">
+            <div class="home-section__header">
+              <span class="home-section__badge">CAREER TRAJECTORY</span>
+              <h2 id="home-experience-title" class="home-section__title">Professional Experience</h2>
+              <p class="home-section__subtitle">Key engineering roles, architectural contributions, and measurable performance impact.</p>
+            </div>
+
+            <div class="home-cards-grid home-cards-grid--2col">
+              <div v-for="exp in experienceList" :key="exp.company" class="home-overview-card">
+                <div class="home-overview-card__header">
+                  <div>
+                    <h3 class="home-overview-card__title">{{ exp.role }}</h3>
+                    <div class="home-overview-card__meta">
+                      <span class="home-overview-card__company">{{ exp.company }}</span>
+                      <span class="home-overview-card__dot">·</span>
+                      <span class="home-overview-card__period">{{ exp.period }}</span>
+                    </div>
+                  </div>
+                  <span v-if="exp.badge" class="home-overview-card__highlight">{{ exp.badge }}</span>
+                </div>
+
+                <p class="home-overview-card__desc">{{ exp.description }}</p>
+
+                <div class="home-overview-card__tags">
+                  <span v-for="tech in exp.technologies" :key="tech" class="home-tag">{{ tech }}</span>
+                </div>
+
+                <div class="home-overview-card__footer">
+                  <a :href="exp.link" class="home-link-btn" :aria-label="'View complete details for ' + exp.role + ' at ' + exp.company">
+                    <span>View More</span>
+                    <svg viewBox="0 0 20 20" fill="currentColor" class="home-link-icon" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-section__more">
+              <a href="/experience.html" class="home-btn-outline">
+                <span>View Complete Work History &amp; Achievements</span>
+                <span class="arrow">→</span>
+              </a>
+            </div>
+          </section>
+
+          <!-- ── Featured Projects Overview ─────────────────────────── -->
+          <section class="home-section" aria-labelledby="home-projects-title">
+            <div class="home-section__header">
+              <span class="home-section__badge">FEATURED WORK</span>
+              <h2 id="home-projects-title" class="home-section__title">Featured Projects</h2>
+              <p class="home-section__subtitle">Production-grade AI architectures, distributed event streaming, and full-stack systems.</p>
+            </div>
+
+            <div class="home-cards-grid home-cards-grid--3col">
+              <div v-for="proj in projectsList" :key="proj.title" class="home-overview-card home-overview-card--project">
+                <div class="home-overview-card__header">
+                  <div>
+                    <span class="home-project-category">{{ proj.category }}</span>
+                    <h3 class="home-overview-card__title">{{ proj.title }}</h3>
+                  </div>
+                </div>
+
+                <p class="home-overview-card__desc">{{ proj.description }}</p>
+
+                <div class="home-overview-card__tags">
+                  <span v-for="tech in proj.technologies" :key="tech" class="home-tag">{{ tech }}</span>
+                </div>
+
+                <div class="home-overview-card__footer">
+                  <a :href="proj.link" class="home-link-btn" :aria-label="'View complete details for ' + proj.title">
+                    <span>View More</span>
+                    <svg viewBox="0 0 20 20" fill="currentColor" class="home-link-icon" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-section__more">
+              <a href="/projects.html" class="home-btn-outline">
+                <span>Explore All Projects &amp; System Specs</span>
+                <span class="arrow">→</span>
+              </a>
+            </div>
+          </section>
+
           <!-- ── Guide cards ─────────────────────────── -->
           <section class="home-learn">
             <div class="home-learn-grid">
@@ -195,6 +284,69 @@ const technologies = [
   { name: 'Docker', subtitle: 'Containerization', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
   { name: 'AWS & Firebase', subtitle: 'Cloud & Alerts', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
   { name: 'Playwright & Jest', subtitle: 'Automated Testing', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg' }
+]
+
+const experienceList = [
+  {
+    role: 'Associate Software Engineer',
+    company: 'Webkul Software Pvt. Ltd.',
+    period: 'Jan 2026 – Present',
+    badge: '70% Latency Drop',
+    description: 'Developed Node.js mobile backend services and reduced API response times by 70% by architecting REST/GraphQL APIs optimized with Redis caching, PostgreSQL tuning, and async cron jobs.',
+    technologies: ['Node.js', 'PostgreSQL', 'Redis', 'GraphQL', 'Cron Jobs'],
+    link: '/experience.html#associate-software-engineer'
+  },
+  {
+    role: 'Junior Software Engineer',
+    company: 'Rudra Innovative Software',
+    period: 'Jul 2025 – Dec 2025',
+    badge: 'IoT & Payments',
+    description: 'Engineered Node.js backend APIs for the AlerTrax mobile tracking app, built React.js live tracking dashboards, and developed Stripe recurring subscription billing modules.',
+    technologies: ['Node.js', 'React.js', 'Stripe API', 'IoT Telemetry'],
+    link: '/experience.html#junior-software-engineer'
+  },
+  {
+    role: 'Web Developer',
+    company: 'BrainGrid Technology Pvt. Ltd.',
+    period: 'Jul 2024 – Jul 2025',
+    badge: 'Real-Time Web',
+    description: 'Built full-stack applications with React.js frontend and Laravel backend APIs, incorporating Redux Toolkit state management, real-time Socket.IO chat, and Firebase notifications.',
+    technologies: ['React.js', 'Laravel', 'Redux Toolkit', 'Socket.IO', 'Firebase'],
+    link: '/experience.html#web-developer'
+  },
+  {
+    role: 'Software Developer Intern',
+    company: 'Code Brew Labs',
+    period: 'Dec 2023 – Jul 2024',
+    badge: 'Core Foundations',
+    description: 'Resolved application bugs and improved system stability as part of the support team, mastering MVC design patterns, Laravel debugging tools, and Git workflows.',
+    technologies: ['PHP', 'Laravel', 'MVC Architecture', 'Git', 'Debugging'],
+    link: '/experience.html#software-developer-intern'
+  }
+]
+
+const projectsList = [
+  {
+    title: 'AI Document Q&A Platform',
+    category: 'AI & RAG Pipeline',
+    description: 'Full-stack MERN SPA enabling natural-language document queries via automated semantic embeddings, vector database similarity search, and context-aware LLM synthesis with Zod validation.',
+    technologies: ['React.js', 'Node.js', 'Vector DB', 'RAG Pipeline', 'LLM APIs', 'Zod'],
+    link: '/projects.html#_1-ai-document-q-a-platform'
+  },
+  {
+    title: 'Distributed Job Processing Platform',
+    category: 'Event-Driven Microservices',
+    description: 'High-throughput async task execution platform using Apache Kafka topic partitions to decouple compute-intensive jobs (bulk emails, reporting) with Redis distributed locks and Docker containers.',
+    technologies: ['Node.js', 'Express', 'Apache Kafka', 'Redis', 'Docker'],
+    link: '/projects.html#_2-distributed-job-processing-monitoring-platform'
+  },
+  {
+    title: 'Freelance Lead Hunter',
+    category: 'Automation & Analytics',
+    description: 'Real-time automation dashboard aggregating freelance project leads via Apify with an adapter pattern, LLM-powered proposal drafting, and Recharts + MongoDB conversion analytics.',
+    technologies: ['React.js', 'Redux', 'Apify Scraper', 'LLM APIs', 'MongoDB', 'Recharts'],
+    link: '/projects.html#_3-freelance-lead-hunter'
+  }
 ]
 
 const currentSlide = ref(0)
@@ -357,5 +509,241 @@ onUnmounted(() => {
 }
 .carousel-btn.next {
   margin-left: 8px;
+}
+
+/* ── Section & Overview Cards Styles ───────────────────────── */
+.home-section {
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.home-section__header {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.home-section__badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--vp-c-brand-next, #555555);
+  margin-bottom: 0.35rem;
+}
+
+.home-section__title {
+  margin: 0 0 0.35rem 0 !important;
+  font-size: 1.65rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--vp-c-brand) !important;
+  line-height: 1.25 !important;
+}
+
+.home-section__subtitle {
+  margin: 0 !important;
+  font-size: 0.95rem !important;
+  color: var(--vp-c-text-mute, #666666) !important;
+  line-height: 1.5 !important;
+}
+
+.home-cards-grid {
+  display: grid;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.home-cards-grid--2col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-cards-grid--3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 960px) {
+  .home-cards-grid--3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .home-cards-grid--2col,
+  .home-cards-grid--3col {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-overview-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.home-overview-card:hover {
+  border-color: var(--vp-c-brand);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--vp-c-brand-glow);
+}
+
+.home-overview-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.home-overview-card__title {
+  margin: 0 !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  color: var(--vp-c-brand) !important;
+  line-height: 1.3 !important;
+}
+
+.home-overview-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-mute, #666666);
+}
+
+.home-overview-card__company {
+  font-weight: 600;
+  color: var(--vp-c-text);
+}
+
+.home-overview-card__dot {
+  opacity: 0.5;
+}
+
+.home-overview-card__period {
+  font-size: 0.82rem;
+  color: var(--vp-c-text-subtle, #999999);
+}
+
+.home-overview-card__highlight {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-brand);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.home-project-category {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #0b6bff;
+  margin-bottom: 0.35rem;
+}
+
+.home-overview-card__desc {
+  margin: 0 0 1rem 0 !important;
+  font-size: 0.885rem !important;
+  line-height: 1.55 !important;
+  color: var(--vp-c-text) !important;
+  flex-grow: 1;
+}
+
+.home-overview-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  background: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-mute, #666666);
+  border: 1px solid var(--vp-c-border);
+}
+
+.home-overview-card__footer {
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--vp-c-border);
+}
+
+.home-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+
+.home-link-btn:hover {
+  color: #0b6bff;
+}
+
+.home-link-icon {
+  width: 14px;
+  height: 14px;
+  transition: transform 0.15s ease;
+}
+
+.home-overview-card:hover .home-link-icon {
+  transform: translateX(4px);
+}
+
+.home-section__more {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.home-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 8px;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-border);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--vp-c-text);
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.home-btn-outline:hover {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+  background: var(--vp-c-bg-alt);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--vp-c-brand-glow);
+}
+
+.home-btn-outline .arrow {
+  transition: transform 0.15s ease;
+}
+
+.home-btn-outline:hover .arrow {
+  transform: translateX(4px);
 }
 </style>
