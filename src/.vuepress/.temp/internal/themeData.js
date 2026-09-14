@@ -1,14 +1,1 @@
 export const themeData = JSON.parse("{\"logo\":\"https://img.icons8.com/color/48/developer.png\",\"sidebarDepth\":0,\"navbar\":[{\"text\":\"About Me\",\"link\":\"/about.html\"},{\"text\":\"Skills\",\"link\":\"/skills.html\"},{\"text\":\"Experience\",\"link\":\"/experience.html\"},{\"text\":\"Projects\",\"link\":\"/projects.html\"},{\"text\":\"Education\",\"link\":\"/education.html\"},{\"text\":\"Certifications\",\"link\":\"/certifications.html\"}],\"sidebar\":[{\"text\":\"Profile\",\"children\":[{\"text\":\"About Me\",\"link\":\"/about.html\"},{\"text\":\"Technical Skills\",\"link\":\"/skills.html\"}]},{\"text\":\"Experience & Projects\",\"children\":[{\"text\":\"Work Experience\",\"link\":\"/experience.html\"},{\"text\":\"Key Projects\",\"link\":\"/projects.html\"}]},{\"text\":\"Credentials\",\"children\":[{\"text\":\"Education Details\",\"link\":\"/education.html\"},{\"text\":\"Certifications\",\"link\":\"/certifications.html\"}]}],\"locales\":{\"/\":{\"selectLanguageName\":\"English\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"editLink\":true,\"editLinkText\":\"Edit this page\",\"lastUpdated\":true,\"contributors\":true,\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
-}

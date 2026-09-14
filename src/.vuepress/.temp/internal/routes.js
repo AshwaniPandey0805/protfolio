@@ -10,16 +10,3 @@ export const routes = Object.fromEntries([
   ["/skills.html", { loader: () => import(/* webpackChunkName: "skills.html" */"/home/pandey/Desktop/Folders/Ashwani Pandey Resume/vue_press_resume/protfolio/src/skills.md"), meta: {"title":"Technical Skills"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/pandey/Desktop/Folders/Ashwani Pandey Resume/vue_press_resume/protfolio/src/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  __VUE_HMR_RUNTIME__.updateRoutes?.(routes)
-  __VUE_HMR_RUNTIME__.updateRedirects?.(redirects)
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept((m) => {
-    __VUE_HMR_RUNTIME__.updateRoutes?.(m.routes)
-    __VUE_HMR_RUNTIME__.updateRedirects?.(m.redirects)
-  })
-}

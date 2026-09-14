@@ -10,8 +10,8 @@ export default defineUserConfig({
   clientConfigFile: path.resolve(__dirname, './client.js'),
   bundler: viteBundler(),
   title: 'Ashwani Kumar Pandey',
-  description: 'Backend Software Engineer Portfolio - Specialized in PHP, Laravel & Magento 2',
-  base: '/',
+  description: 'Backend Software Developer Portfolio - Node.js, AI & RAG Systems, Laravel',
+  base: process.env.BASE || (process.env.NODE_ENV === 'production' ? '/protfolio/' : '/'),
   head: [
     ['link', { rel: 'icon', href: 'https://img.icons8.com/color/48/developer.png' }]
   ],
