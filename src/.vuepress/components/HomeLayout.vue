@@ -129,12 +129,15 @@
             <div class="home-cards-grid home-cards-grid--2col">
               <div v-for="exp in experienceList" :key="exp.company" class="home-overview-card">
                 <div class="home-overview-card__header">
-                  <div>
-                    <h3 class="home-overview-card__title">{{ exp.role }}</h3>
-                    <div class="home-overview-card__meta">
-                      <span class="home-overview-card__company">{{ exp.company }}</span>
-                      <span class="home-overview-card__dot">·</span>
-                      <span class="home-overview-card__period">{{ exp.period }}</span>
+                  <div class="home-overview-card__identity">
+                    <img :src="exp.logo" :alt="exp.company + ' logo'" class="home-company-logo" loading="lazy" />
+                    <div class="home-overview-card__titles">
+                      <h3 class="home-overview-card__title">{{ exp.role }}</h3>
+                      <div class="home-overview-card__meta">
+                        <span class="home-overview-card__company">{{ exp.company }}</span>
+                        <span class="home-overview-card__dot">·</span>
+                        <span class="home-overview-card__period">{{ exp.period }}</span>
+                      </div>
                     </div>
                   </div>
                   <span v-if="exp.badge" class="home-overview-card__highlight">{{ exp.badge }}</span>
@@ -292,6 +295,7 @@ const experienceList = [
     company: 'Webkul Software Pvt. Ltd.',
     period: 'Jan 2026 – Present',
     badge: '70% Latency Drop',
+    logo: '/images/companies/webkul_logo.jpeg',
     description: 'Developed Node.js mobile backend services and reduced API response times by 70% by architecting REST/GraphQL APIs optimized with Redis caching, PostgreSQL tuning, and async cron jobs.',
     technologies: ['Node.js', 'PostgreSQL', 'Redis', 'GraphQL', 'Cron Jobs'],
     link: '/experience.html#associate-software-engineer'
@@ -301,6 +305,7 @@ const experienceList = [
     company: 'Rudra Innovative Software',
     period: 'Jul 2025 – Dec 2025',
     badge: 'IoT & Payments',
+    logo: '/images/companies/rudrainnovative_logo.jpeg',
     description: 'Engineered Node.js backend APIs for the AlerTrax mobile tracking app, built React.js live tracking dashboards, and developed Stripe recurring subscription billing modules.',
     technologies: ['Node.js', 'React.js', 'Stripe API', 'IoT Telemetry'],
     link: '/experience.html#junior-software-engineer'
@@ -310,6 +315,7 @@ const experienceList = [
     company: 'BrainGrid Technology Pvt. Ltd.',
     period: 'Jul 2024 – Jul 2025',
     badge: 'Real-Time Web',
+    logo: '/images/companies/BrainGridTechnology.jpeg',
     description: 'Built full-stack applications with React.js frontend and Laravel backend APIs, incorporating Redux Toolkit state management, real-time Socket.IO chat, and Firebase notifications.',
     technologies: ['React.js', 'Laravel', 'Redux Toolkit', 'Socket.IO', 'Firebase'],
     link: '/experience.html#web-developer'
@@ -319,6 +325,7 @@ const experienceList = [
     company: 'Code Brew Labs',
     period: 'Dec 2023 – Jul 2024',
     badge: 'Core Foundations',
+    logo: '/images/companies/Code_brew_Lab.jpeg',
     description: 'Resolved application bugs and improved system stability as part of the support team, mastering MVC design patterns, Laravel debugging tools, and Git workflows.',
     technologies: ['PHP', 'Laravel', 'MVC Architecture', 'Git', 'Debugging'],
     link: '/experience.html#software-developer-intern'
@@ -599,6 +606,30 @@ onUnmounted(() => {
   align-items: flex-start;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.home-overview-card__identity {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.home-company-logo {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #ffffff;
+  border: 1px solid var(--vp-c-border);
+  padding: 3px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.home-overview-card__titles {
+  display: flex;
+  flex-direction: column;
 }
 
 .home-overview-card__title {

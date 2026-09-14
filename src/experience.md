@@ -5,6 +5,8 @@ Details of my professional journey in software engineering.
 ---
 
 ## Associate Software Engineer
+<img src="/images/companies/webkul_logo.jpeg" alt="Webkul Software Logo" width="48" height="48" style="float: right; border-radius: 8px; border: 1px solid var(--vp-c-border); padding: 3px; background: #fff; margin-left: 1rem; margin-bottom: 0.5rem;" />
+
 **Webkul Software Pvt. Ltd.** | *January 2026 – Present*  
 *Role Focus: Node.js backend services, mobile APIs & performance engineering*
 
@@ -15,6 +17,8 @@ Details of my professional journey in software engineering.
 ---
 
 ## Junior Software Engineer
+<img src="/images/companies/rudrainnovative_logo.jpeg" alt="Rudra Innovative Software Logo" width="48" height="48" style="float: right; border-radius: 8px; border: 1px solid var(--vp-c-border); padding: 3px; background: #fff; margin-left: 1rem; margin-bottom: 0.5rem;" />
+
 **Rudra Innovative Software** | *July 2025 – December 2025*  
 *Role Focus: Node.js APIs, fleet tracking & Stripe subscription billing*
 
@@ -25,6 +29,8 @@ Details of my professional journey in software engineering.
 ---
 
 ## Web Developer
+<img src="/images/companies/BrainGridTechnology.jpeg" alt="BrainGrid Technology Logo" width="48" height="48" style="float: right; border-radius: 8px; border: 1px solid var(--vp-c-border); padding: 3px; background: #fff; margin-left: 1rem; margin-bottom: 0.5rem;" />
+
 **BrainGrid Technology Pvt. Ltd.** | *July 2024 – July 2025*  
 *Role Focus: React.js, Laravel APIs, real-time Socket.IO chat & Firebase alerts*
 
@@ -35,6 +41,8 @@ Details of my professional journey in software engineering.
 ---
 
 ## Software Developer Intern
+<img src="/images/companies/Code_brew_Lab.jpeg" alt="Code Brew Labs Logo" width="48" height="48" style="float: right; border-radius: 8px; border: 1px solid var(--vp-c-border); padding: 3px; background: #fff; margin-left: 1rem; margin-bottom: 0.5rem;" />
+
 **Code Brew Labs** | *December 2023 – July 2024*  
 *Role Focus: Support, MVC architecture & debugging*
 
