@@ -1,8 +1,22 @@
 # Ashwani Kumar Pandey - Developer Portfolio Website 🚀
 
-![Portfolio Preview](portfolio-preview.png)
+This is the source code for my professional developer portfolio website. Built using **VuePress 2.x**, **Vue 3**, **Vite**, and custom **SCSS configurations**, it features a fully responsive design, custom interactive components, a seamless dark/light mode toggle, and organized content directories matching my professional resume.
 
-This is the source code for my professional developer portfolio website. Built using **VuePress 2.x**, **Vue 3**, **Vite**, and custom **SCSS/Tailwind configurations**, it features a fully responsive design, custom interactive components, a seamless dark/light mode toggle, and organized content directories matching my professional resume.
+---
+
+## 📸 Portfolio Preview
+
+### 🖥️ Desktop Web Experience
+
+| 🌙 Dark Mode | ☀️ Light Mode |
+| :---: | :---: |
+| ![Desktop Web Dark Mode](images/readme_images/dark_mode.png) | ![Desktop Web Light Mode](images/readme_images/light_mode.jpeg) |
+
+### 📱 Responsive Mobile Experience
+
+| 🌙 Mobile Dark View | ☀️ Mobile Light View |
+| :---: | :---: |
+| <img src="images/readme_images/mobile_view_dark.jpeg" width="340" alt="Mobile Dark View" /> | <img src="images/readme_images/mobile_view_light.jpeg" width="340" alt="Mobile Light View" /> |
 
 ---
 
