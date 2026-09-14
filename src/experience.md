@@ -6,38 +6,37 @@ Details of my professional journey in software engineering.
 
 ## Associate Software Engineer
 **Webkul Software Pvt. Ltd.** | *January 2026 – Present*  
-*Role Focus: Magento 2 marketplace extension development & maintenance*
+*Role Focus: Node.js backend services, mobile APIs & performance engineering*
 
-* **Custom Extensions**: Developed custom Magento 2 extensions and extended the *Webkul Marketplace Extension* with business-specific features and custom functionalities while ensuring Hyvä theme compatibility.
-* **Security & Performance**: Implemented a custom rate-limiting mechanism using Magento Cache and Session management to prevent duplicate requests, improve request handling, and enhance application stability.
-* **Query & Execution Optimization**: Reduced API response times by **60-70%** by implementing asynchronous processing with Magento Cron Jobs and batch processing, alongside optimizing SQL queries for database scalability.
-* **Automated Testing**: Wrote Playwright test scripts from scratch to validate end-to-end user journeys and module functionality for each extension.
-* **Technical Writing**: Utilized AI agents to generate clean integration guides and developer documentation.
+* **Node.js Mobile Backends**: Developed and maintained Node.js backend services for mobile applications, building robust APIs and business-specific features in close collaboration with front-end engineering teams.
+* **70% API Response Optimization**: Reduced mobile app API response times by **70%** by architecting scalable REST and GraphQL APIs optimized via **Redis caching**, **PostgreSQL query tuning**, and asynchronous background cron jobs to ensure a seamless, low-latency user experience.
+* **Scalability & Reliability**: Implemented caching strategies and query execution optimizations for high-traffic mobile and backend endpoints.
 
 ---
 
-## PHP Developer
+## Junior Software Engineer
 **Rudra Innovative Software** | *July 2025 – December 2025*  
-*Role Focus: Asset tracking & IoT integrations*
+*Role Focus: Node.js APIs, fleet tracking & Stripe subscription billing*
 
-* **Platform Contribution**: Contributed to backend and frontend development for *AlerTrax*, a GPS/IoT asset-tracking platform, working across Laravel and Vue.js.
-* **Collaboration**: Collaborated with design and frontend teams in an Agile environment, maintaining clean code practices and ensuring smooth feature integration.
+* **Mobile API & Admin Dashboard**: Developed backend APIs in **Node.js** primarily for the *AlerTrax* mobile application, and built **React.js** components for the web admin dashboard to visualize live asset-tracking data.
+* **Subscription & Billing Systems**: Built backend modules for **Stripe-based pricing plans** and recurring subscription management for connected IoT tracking devices.
+* **Full-Stack Collaboration**: Collaborated with design and engineering teams in an Agile environment, maintaining clean code standards and rapid feature delivery.
 
 ---
 
 ## Web Developer
 **BrainGrid Technology Pvt. Ltd.** | *July 2024 – July 2025*  
-*Role Focus: E-commerce & Laravel full-stack support*
+*Role Focus: React.js, Laravel APIs, real-time Socket.IO chat & Firebase alerts*
 
-* **Tech Stack**: Worked with both Laravel and Magento 2, gaining hands-on, production-level experience in both ecosystems.
-* **Client Solutions**: Maintained existing client sites, resolved incoming bug tickets, and implemented custom features based on client requirements.
-* **Best Practices**: Followed MVC architecture pattern, Git version control, and modular styling patterns under senior mentorship.
+* **Full-Stack Application Development**: Built end-to-end features using **React.js** for the frontend and **Laravel** for backend APIs, utilizing **Redux / Redux Toolkit** for centralized client state management to deliver a fast, responsive single-page application.
+* **Real-Time Team Chat**: Engineered a real-time team chat and collaboration interface handled through **Socket.IO** for instantaneous bi-directional communication.
+* **Push Notifications**: Integrated **Firebase notifications** to provide real-time alerts and activity updates across user accounts.
 
 ---
 
 ## Software Developer Intern
 **Code Brew Labs** | *December 2023 – July 2024*  
-*Role Focus: Support & Debugging*
+*Role Focus: Support, MVC architecture & debugging*
 
-* **Bug Resolution**: Resolved bugs and improved application stability as part of the support team, using Laravel debugging tools.
-* **Mentorship**: Gained knowledge in MVC structure, Git version control, and Laravel development standards under senior developers.
+* **Bug Resolution & Stability**: Resolved application bugs and improved system stability as part of the support engineering team, utilizing Laravel debugging tools and logs.
+* **Core Foundations**: Gained practical knowledge in MVC design patterns, Git version control workflows, and production Laravel development standards under senior mentorship.

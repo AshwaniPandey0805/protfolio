@@ -51,10 +51,10 @@
 
       <!-- Hero -->
       <header class="vp-hero">
-        <span class="vp-hero-pretitle">BACKEND ENGINEER · PHP · LARAVEL · MAGENTO 2</span>
+        <span class="vp-hero-pretitle">BACKEND SOFTWARE DEVELOPER · NODE.JS · AI &amp; RAG SYSTEMS · LARAVEL</span>
         <h1 id="main-title">Ashwani Kumar Pandey</h1>
         <p class="vp-hero-description">
-          Backend Software Engineer specializing in scalable e-commerce extension development, API design (REST/GraphQL), session &amp; database optimizations, and robust backend integrations.
+          Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
         </p>
         <p class="vp-hero-actions">
           <a class="vp-hero-action-button primary" href="/about.html" aria-label="Explore Profile">
@@ -141,7 +141,7 @@
                   <span class="home-guide-card__number">2</span>
                   <h2>Experience</h2>
                 </div>
-                <p>Explore my employment history at Webkul, Rudra Innovative, and BrainGrid.</p>
+                <p>Explore my employment history at Webkul, Rudra Innovative, BrainGrid, and Code Brew Labs.</p>
                 <nav aria-label="Experience links">
                   <a href="/experience.html">Work Experience</a>
                   <a href="/projects.html">Key Projects</a>
@@ -154,7 +154,7 @@
                   <span class="home-guide-card__number">3</span>
                   <h2>Education</h2>
                 </div>
-                <p>View my educational qualifications, academic degrees, and professional certifications.</p>
+                <p>View my educational qualifications (B.Tech IT - CGPA 7.5) and professional credentials.</p>
                 <nav aria-label="Education and Certifications links">
                   <a href="/education.html">Education Details</a>
                   <a href="/certifications.html">Certifications</a>
@@ -177,21 +177,24 @@ import { ref, onMounted, onUnmounted, computed } from 'vue'
 const isDark = ref(false)
 
 const technologies = [
-  { name: 'PHP', subtitle: 'Language Core', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-  { name: 'Laravel', subtitle: 'MVC Framework', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg' },
-  { name: 'Magento 2', subtitle: 'Adobe Commerce', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg' },
+  { name: 'Node.js', subtitle: 'Backend Runtime', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+  { name: 'Express.js', subtitle: 'Web Framework', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
+  { name: 'Next.js', subtitle: 'Full-Stack React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
+  { name: 'React.js', subtitle: 'Frontend Library', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+  { name: 'Redux', subtitle: 'State Management', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' },
+  { name: 'Laravel', subtitle: 'PHP MVC Framework', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg' },
+  { name: 'PHP', subtitle: 'Backend Language', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
   { name: 'PostgreSQL', subtitle: 'Relational DB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
-  { name: 'MySQL', subtitle: 'Relational DB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
-  { name: 'GraphQL', subtitle: 'API Query Lang', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' },
-  { name: 'REST API', subtitle: 'Web Services', logo: 'https://img.icons8.com/color/48/api.png' },
-  { name: 'Vue.js', subtitle: 'Frontend Library', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' },
-  { name: 'Tailwind CSS', subtitle: 'Utility CSS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
-  { name: 'Hyvä Theme', subtitle: 'Magento Tailwind', logo: '/images/trust/hyva.webp' },
-  { name: 'React.js', subtitle: 'MERN Frontend', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-  { name: 'Node.js', subtitle: 'MERN Backend', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
   { name: 'MongoDB', subtitle: 'NoSQL Database', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-  { name: 'System Design', subtitle: 'Cron & Queues', logo: 'https://img.icons8.com/color/48/services.png' },
-  { name: 'Playwright', subtitle: 'Automated Test', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg' }
+  { name: 'Redis', subtitle: 'Cache & Queue', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg' },
+  { name: 'Vector DB & RAG', subtitle: 'AI Embeddings', logo: 'https://img.icons8.com/color/48/neural-network.png' },
+  { name: 'LLM APIs', subtitle: 'AI Engineering', logo: 'https://img.icons8.com/color/48/artificial-intelligence.png' },
+  { name: 'Apache Kafka', subtitle: 'Message Streaming', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg' },
+  { name: 'Socket.io', subtitle: 'Real-Time WebSockets', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' },
+  { name: 'GraphQL', subtitle: 'API Query Lang', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' },
+  { name: 'Docker', subtitle: 'Containerization', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
+  { name: 'AWS & Firebase', subtitle: 'Cloud & Alerts', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
+  { name: 'Playwright & Jest', subtitle: 'Automated Testing', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg' }
 ]
 
 const currentSlide = ref(0)

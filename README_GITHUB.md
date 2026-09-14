@@ -1,52 +1,66 @@
 # Hi there, I'm Ashwani Kumar Pandey! 👋
 
-### Backend Software Engineer | PHP, Laravel & Magento 2 Specialist
+### Backend Software Developer | Node.js, Laravel & AI Systems Specialist
 
 ![Portfolio Preview](portfolio-preview.png)
 
-Backend Software Engineer with hands-on professional experience in **PHP, Laravel & Adobe Commerce (Magento 2)**. I specialize in building highly performant e-commerce integrations, designing robust GraphQL/REST APIs, optimizing database operations, and writing end-to-end automation scripts.
+Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
 
 ---
 
 ### 🚀 Quick Stats & Highlights
-- 💻 Currently building high-performance e-commerce modules and backend services.
-- ⚙️ Deeply experienced in custom extension development, session handling, database optimizations, and message queues.
-- 🎓 B.Tech in Information Technology from AKTU.
-- 🏢 Worked on complex enterprise integrations at Webkul and BrainGrid.
-- 💼 Passionate about clean code, system architecture, and scalable design patterns.
+- 💻 Specialized in scalable Node.js, Express, and Laravel backend architectures.
+- 🤖 Exploring AI Engineering: Retrieval-Augmented Generation (RAG), vector databases, embeddings, and LLM APIs.
+- ⚡ Reduced mobile API response latency by **70%** via Redis caching, PostgreSQL tuning, and async cron jobs.
+- 📨 Built distributed background task execution pipelines with **Apache Kafka** and Docker.
+- 🎓 B.Tech in Information Technology from AKTU (CGPA: 7.5).
+- 💼 Passionate about clean code, SOLID principles, and microservices design patterns.
 
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
 
 <p align="left">
-  <!-- PHP & E-Commerce -->
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <!-- Backend & Languages -->
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Magento_2-EE672F?style=for-the-badge&logo=magento&logoColor=white" alt="Magento 2" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  
+  <!-- Frontend & UI -->
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   
-  <!-- Databases & API -->
+  <!-- Databases & Caching -->
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />
-  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
   
-  <!-- Testing, DevOps & Tools -->
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <!-- Messaging, Real-time & APIs -->
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.io" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  
+  <!-- Cloud, Testing & Tools -->
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
 
 ### 📁 Featured Projects
-- **InPost Shipping Method for Magento 2**: Integrated Polish locker logistics with checkout grids, dynamically fetching point data and validating coordinates.
-- **Etsy Integration for Magento 2**: Built real-time products, orders, and shipment synchronization modules using Magento 2 REST API and PHP cURL.
-- **Mobikul GraphQL for Magento 2**: Designed and extended custom GraphQL schemas, queries, and mutations to support mobile app integrations.
-- **AlerTrax (Laravel)**: Engineered custom real-time alert trigger mechanisms and multi-client admin dashboards.
-- **MERN Real Estate App**: Built a full-stack real-estate portal with MongoDB, Express, React, and Node.js.
+- **AI Document Q&A Platform**: Full-stack SPA with React, Redux, and Node.js. Built an end-to-end RAG pipeline chunking documents into vector embeddings and querying a vector DB to synthesize context-aware answers via LLM APIs.
+- **Distributed Job Processing Platform**: Event-driven Node.js backend utilizing Apache Kafka for asynchronous background queues, Redis for caching and duplicate prevention, and Docker for portable containerization.
+- **Freelance Lead Hunter**: React/Redux automation dashboard aggregating project leads with Apify, utilizing an LLM layer for proposal drafting and Recharts + MongoDB for conversion analytics.
+- **AlerTrax (IoT Asset-Tracking Platform)**: Developed Node.js APIs and React dashboard components for live GPS fleet tracking, integrated with Stripe for recurring subscription billing.
 
 ---
 
@@ -75,4 +89,4 @@ Backend Software Engineer with hands-on professional experience in **PHP, Larave
 
 ---
 
-*“Optimizing backends, scaling databases, and automating everything in between.”*
+*“Engineering scalable backends, distributed message queues, and AI-driven architectures.”*

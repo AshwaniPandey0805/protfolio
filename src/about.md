@@ -1,13 +1,13 @@
 # About Me
 
-Backend Software Engineer with hands-on professional experience in **PHP, Laravel & Adobe Commerce Magento 2**. Comfortable working across backend frameworks and API-driven architectures, with strong fundamentals in design patterns, API integrations, and collaborative software development.
+Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
 
 ---
 
 ## Profile Details
 
 * **Name**: Ashwani Kumar Pandey
-* **Role**: Backend Engineer / Software Engineer
+* **Role**: Backend Software Developer / AI Engineer
 * **Location**: Noida, Uttar Pradesh, India
 * **Contact Number**: [+91 8081466560](tel:+918081466560)
 * **Email**: [ashwanipandey679@gmail.com](mailto:ashwanipandey679@gmail.com)
@@ -18,10 +18,11 @@ Backend Software Engineer with hands-on professional experience in **PHP, Larave
 
 ## Professional Objectives
 
-- **Backend Architecture & Integration**: Develop secure, decoupled, and highly performant APIs (REST and GraphQL) using PHP (Laravel/Magento).
-- **Performance Tuning**: Analyze bottleneck spots, implement advanced caching strategies, run background processes asynchronously, and optimize SQL queries for low latency and high scalability.
-- **Robust Testing**: Verify system integrations and write clean automated tests (such as Playwright scripts) to ensure high-quality software releases.
-- **Collaborative Engineering**: Follow modern MVC/MVVM patterns, clean-code methodologies, Git flow, and Agile practices.
+- **Scalable Backend Services**: Develop decoupled, highly performant APIs (REST and GraphQL) using Node.js, Express.js, and Laravel for high-throughput mobile and web applications.
+- **AI & RAG Architectures**: Design Retrieval-Augmented Generation (RAG) pipelines, chunking documents into vector embeddings, querying vector databases, and synthesizing context-aware answers via LLM APIs.
+- **Distributed Queues & Performance Tuning**: Architect resilient asynchronous task execution using Apache Kafka and background cron jobs; leverage Redis caching and PostgreSQL query tuning to slash API latency by up to 70%.
+- **Real-Time Web & Integrations**: Implement bidirectional real-time collaboration with Socket.io, Firebase push notifications, and subscription lifecycle management via Stripe API.
+- **Testing & Quality Standards**: Write automated test suites using Playwright and Jest, enforcing OOP, SOLID principles, RBAC authorization, and JWT/OAuth security.
 
 ---
 

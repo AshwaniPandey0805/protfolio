@@ -1,60 +1,60 @@
 # Technical Skills
 
-A comprehensive overview of my programming languages, frameworks, developer tools, database systems, and methodologies.
+A comprehensive overview of my programming languages, frameworks, developer tools, database systems, AI engineering workflows, and architectural methodologies.
 
 ---
 
-## Languages & Core Frameworks
+## Core Technologies Matrix
 
-| Category | Skills & Frameworks |
+| Category | Technologies & Tools |
 | :--- | :--- |
-| **Backend Languages** | PHP (OOP), C++, JavaScript (ES6+), Node.js (Runtime) |
-| **PHP Ecosystem** | Laravel, Adobe Commerce / Magento 2 (Custom extension development) |
-| **JavaScript Ecosystem** | Node.js (MERN Backend), Express.js |
+| **Backend Languages & Frameworks** | JavaScript (ES6+), Node.js, Express.js, Next.js, PHP, Laravel, C, C++ |
+| **Frontend & State Management** | React.js, Redux, Redux Toolkit, Next.js, Tailwind CSS, HTML5, CSS3 |
+| **AI Engineering & LLM Systems** | Vector Databases, Retrieval-Augmented Generation (RAG), LLM APIs, Text Embeddings |
+| **Databases & Caching** | PostgreSQL, MongoDB, MySQL, Redis, Vector Database (Semantic Search) |
+| **APIs, Messaging & Real-Time** | RESTful APIs, GraphQL, Socket.io, Firebase, Apache Kafka, Stripe API, Apify |
+| **DevOps, Cloud & Tooling** | AWS, Docker, CI/CD, Git, GitHub, Postman, Zod, Recharts |
+| **Testing & Automation** | Playwright (End-to-end testing), Jest (Unit & integration testing) |
+| **Architecture & Security** | OOP's, SOLID Principles, Role-Based Access Control (RBAC), JWT, OAuth |
 
 ---
 
-## Frontend & UI Styling
+## Languages & Backend Ecosystem
 
-* **Frontend Frameworks & Libraries**: Vue.js, React.js (MERN Frontend)
-* **E-Commerce Styling**: Hyvä Theme (Magento 2 Tailwind CSS framework)
-* **Web UI Standards**: HTML5, CSS3, JavaScript
-* **CSS Frameworks**: Tailwind CSS, Vanilla CSS
-
----
-
-## Database Management
-
-* **Relational Databases**: SQL, MySQL, MariaDB, PostgreSQL
-* **NoSQL Databases**: MongoDB (MERN Stack Database)
-* **Optimization Techniques**: Query optimization, indexing, schema design, batch insert/update optimizations
+* **JavaScript & Node.js**: Deep proficiency in asynchronous event-driven architecture, non-blocking I/O, Express.js REST/GraphQL backends, and Next.js full-stack development.
+* **PHP & Laravel**: Building decoupled MVC applications, service layers, custom middleware, Eloquent query optimization, and background job runners.
+* **Core Languages**: Solid academic and practical foundation in C and C++ for computational problem-solving and algorithmic data structures.
 
 ---
 
-## Web API Architectures & Services
+## AI Engineering & Retrieval-Augmented Generation (RAG)
 
-* **API Formats**: GraphQL (Magento 2 GraphQL APIs, custom resolvers), RESTful Web Services
-* **Cloud & Storage Services**: Amazon Web Services (AWS S3 Integration)
-* **Payment Gateways**: Stripe API Integration (subscriptions, payment methods, CRUD operations), CMI Payment Gateway
-
----
-
-## Testing & Automation
-
-* **Browser-based Testing**: Playwright (end-to-end user-journey testing, custom test scripts for Magento marketplace modules)
-* **Unit Testing**: Basic PHPUnit verification
+* **RAG Pipelines**: Architecting end-to-end document parsing, semantic chunking, and embedding generation for contextual information retrieval.
+* **Vector Databases**: Storing vector embeddings and executing similarity searches to supply LLMs with context-aware document excerpts.
+* **LLM Integrations**: Interfacing with frontier LLM APIs to power natural-language document Q&A, automated proposal drafting, and trend analysis.
 
 ---
 
-## System Design & Background Jobs
+## Database Management & Caching
 
-* **Asynchronous Jobs**: Magento Cron Jobs, custom cron schedules, queue management, background process scheduling
-* **Message Queues**: Basic understanding of queues for batch processing
+* **Relational Databases**: PostgreSQL and MySQL; query performance tuning, index optimization, relational schema modeling, and latency reduction.
+* **NoSQL Databases**: MongoDB for high-velocity document storage, schema flexibility, and aggregation pipelines.
+* **In-Memory Caching**: Redis for low-latency session caching, API response optimization, and duplicate-task prevention.
 
 ---
 
-## Architecture & Version Control
+## Real-Time Systems, Message Queues & Web APIs
 
-* **Design Patterns**: MVC (Model-View-Controller), MVVM (Model-View-ViewModel), Dependency Injection
-* **Collaborative Tools**: Git, GitHub, Bitbucket, Jira
-* **Other**: AI-assisted technical documentation, REST client API tools (Postman, Insomnia)
+* **Message Queues**: Apache Kafka for distributed asynchronous task processing (emails, reporting, background compute) with retry handling.
+* **Real-Time WebSockets**: Socket.io for bidirectional, event-driven communications (live collaboration & team chat).
+* **API Standards**: Designing schema-driven GraphQL endpoints and RESTful microservices; strict client request validation with Zod.
+* **Third-Party Integrations**: Stripe API (dynamic subscription billing & plan management), Firebase (real-time alerts & push notifications), and Apify (automated web scraping).
+
+---
+
+## Quality Assurance, DevOps & Security
+
+* **Automated Testing**: Writing end-to-end user journey tests with Playwright and unit/integration verification with Jest.
+* **Containerization & CI/CD**: Containerizing microservices using Docker for uniform environments; continuous integration and deployment pipelines via Git and CI/CD tools.
+* **Authentication & Authorization**: Implementing multi-tier security with JWT token rotation, OAuth 2.0 flows, and Role-Based Access Control (RBAC).
+* **Development Principles**: Strict adherence to OOP fundamentals, SOLID principles, and clean code architecture.

@@ -1,22 +1,30 @@
-# Certifications
+# Certifications & Training
 
-Professional certifications, credentials, and course completions.
-
----
-
-## E-Commerce & Adobe Commerce (Magento)
-
-### Adobe Certified Professional - Adobe Commerce Developer (Target/Planned)
-* **Description**: Focused on custom module development, layout customization, checkout pipelines, and catalog architecture.
-* **Key Areas**: Adminhtml customization, indexing, plugin/observer design, and DB schema setup.
+Professional certifications, specialized technical training, and system competencies.
 
 ---
 
-## Web Development & Cloud Services
+## Cloud Infrastructure & Storage
 
 ### AWS Fundamentals & S3 Management
-* **Description**: Training in core AWS cloud concepts: EC2, S3 bucket security policies, IAM user management, and SDK integrations.
-* **Application**: Integrated AWS S3 SDK for secure media asset storage in PHP/Laravel projects.
+* **Focus Areas**: Core AWS cloud architecture: EC2 virtual servers, S3 bucket storage security policies, IAM user permissions & access keys, and AWS SDK integration.
+* **Application**: Integrated AWS S3 SDK for secure media asset storage, asset distribution, and access management across production web services.
 
-### Laravel Advanced Backend Engineering
-* **Description**: Focus on Laravel Eloquent optimization, background queues (Redis/Database drivers), custom Middlewares, JWT session state preservation, and Stripe Subscription Billing integrations.
+---
+
+## Distributed Systems & Event Streaming
+
+### Distributed Architecture with Apache Kafka & Redis
+* **Focus Areas**: Event-driven asynchronous messaging, topic partitioning, consumer group scaling, fault tolerance, and dead-letter retry handling.
+* **Application**: Designed and deployed distributed job queues and in-memory Redis caching layers to prevent redundant task execution and optimize backend throughput.
+
+---
+
+## AI Engineering & Modern Web Architectures
+
+### AI & Retrieval-Augmented Generation (RAG) Systems
+* **Focus Areas**: Document parsing, semantic chunking, vector embeddings, similarity search algorithms, and contextual LLM prompting.
+* **Application**: Engineered an end-to-end RAG platform enabling natural-language document analysis with zero factual hallucinations.
+
+### Advanced Full-Stack & API Engineering
+* **Focus Areas**: Node.js & Express microservices, Laravel backend architecture, React.js state management with Redux Toolkit, Socket.IO real-time websockets, and automated testing via Playwright & Jest.

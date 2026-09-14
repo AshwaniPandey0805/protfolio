@@ -36,28 +36,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Certifications",
+    "title": "Certifications & Training",
     "headers": [
       {
         "level": 2,
-        "title": "E-Commerce & Adobe Commerce (Magento)",
-        "slug": "e-commerce-adobe-commerce-magento",
-        "link": "#e-commerce-adobe-commerce-magento",
-        "children": [
-          {
-            "level": 3,
-            "title": "Adobe Certified Professional - Adobe Commerce Developer (Target/Planned)",
-            "slug": "adobe-certified-professional-adobe-commerce-developer-target-planned",
-            "link": "#adobe-certified-professional-adobe-commerce-developer-target-planned",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Web Development & Cloud Services",
-        "slug": "web-development-cloud-services",
-        "link": "#web-development-cloud-services",
+        "title": "Cloud Infrastructure & Storage",
+        "slug": "cloud-infrastructure-storage",
+        "link": "#cloud-infrastructure-storage",
         "children": [
           {
             "level": 3,
@@ -65,12 +50,42 @@ export const SEARCH_INDEX = [
             "slug": "aws-fundamentals-s3-management",
             "link": "#aws-fundamentals-s3-management",
             "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Distributed Systems & Event Streaming",
+        "slug": "distributed-systems-event-streaming",
+        "link": "#distributed-systems-event-streaming",
+        "children": [
+          {
+            "level": 3,
+            "title": "Distributed Architecture with Apache Kafka & Redis",
+            "slug": "distributed-architecture-with-apache-kafka-redis",
+            "link": "#distributed-architecture-with-apache-kafka-redis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "AI Engineering & Modern Web Architectures",
+        "slug": "ai-engineering-modern-web-architectures",
+        "link": "#ai-engineering-modern-web-architectures",
+        "children": [
+          {
+            "level": 3,
+            "title": "AI & Retrieval-Augmented Generation (RAG) Systems",
+            "slug": "ai-retrieval-augmented-generation-rag-systems",
+            "link": "#ai-retrieval-augmented-generation-rag-systems",
+            "children": []
           },
           {
             "level": 3,
-            "title": "Laravel Advanced Backend Engineering",
-            "slug": "laravel-advanced-backend-engineering",
-            "link": "#laravel-advanced-backend-engineering",
+            "title": "Advanced Full-Stack & API Engineering",
+            "slug": "advanced-full-stack-api-engineering",
+            "link": "#advanced-full-stack-api-engineering",
             "children": []
           }
         ]
@@ -121,9 +136,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "PHP Developer",
-        "slug": "php-developer",
-        "link": "#php-developer",
+        "title": "Junior Software Engineer",
+        "slug": "junior-software-engineer",
+        "link": "#junior-software-engineer",
         "children": []
       },
       {
@@ -150,38 +165,38 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "Professional Projects (Magento 2 / Adobe Commerce)",
-        "slug": "professional-projects-magento-2-adobe-commerce",
-        "link": "#professional-projects-magento-2-adobe-commerce",
+        "title": "Featured AI & Distributed Projects",
+        "slug": "featured-ai-distributed-projects",
+        "link": "#featured-ai-distributed-projects",
         "children": [
           {
             "level": 3,
-            "title": "InPost Shipping Customization Module (Pigunio Marketplace)",
-            "slug": "inpost-shipping-customization-module-pigunio-marketplace",
-            "link": "#inpost-shipping-customization-module-pigunio-marketplace",
+            "title": "1. AI Document Q&A Platform",
+            "slug": "_1-ai-document-q-a-platform",
+            "link": "#_1-ai-document-q-a-platform",
             "children": []
           },
           {
             "level": 3,
-            "title": "Webkul_EtsyMagentoConnect Module (Etsy API Integration)",
-            "slug": "webkul-etsymagentoconnect-module-etsy-api-integration",
-            "link": "#webkul-etsymagentoconnect-module-etsy-api-integration",
+            "title": "2. Distributed Job Processing & Monitoring Platform",
+            "slug": "_2-distributed-job-processing-monitoring-platform",
+            "link": "#_2-distributed-job-processing-monitoring-platform",
             "children": []
           },
           {
             "level": 3,
-            "title": "Mobikul GraphQL API Modules (MobikulAdminApiGraphql & MobikulApiGraphql)",
-            "slug": "mobikul-graphql-api-modules-mobikuladminapigraphql-mobikulapigraphql",
-            "link": "#mobikul-graphql-api-modules-mobikuladminapigraphql-mobikulapigraphql",
+            "title": "3. Freelance Lead Hunter",
+            "slug": "_3-freelance-lead-hunter",
+            "link": "#_3-freelance-lead-hunter",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "Professional Projects (Laravel & Vue.js)",
-        "slug": "professional-projects-laravel-vue-js",
-        "link": "#professional-projects-laravel-vue-js",
+        "title": "Additional Systems & Integrations",
+        "slug": "additional-systems-integrations",
+        "link": "#additional-systems-integrations",
         "children": [
           {
             "level": 3,
@@ -192,31 +207,9 @@ export const SEARCH_INDEX = [
           },
           {
             "level": 3,
-            "title": "Royo (E-Commerce Backend Support)",
-            "slug": "royo-e-commerce-backend-support",
-            "link": "#royo-e-commerce-backend-support",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Personal Projects",
-        "slug": "personal-projects",
-        "link": "#personal-projects",
-        "children": [
-          {
-            "level": 3,
-            "title": "Real Estate Web Application (MERN Stack)",
-            "slug": "real-estate-web-application-mern-stack",
-            "link": "#real-estate-web-application-mern-stack",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Online E-Commerce Shopping Cart (Laravel)",
-            "slug": "online-e-commerce-shopping-cart-laravel",
-            "link": "#online-e-commerce-shopping-cart-laravel",
+            "title": "Full-Stack Real-Time Team Collaboration App",
+            "slug": "full-stack-real-time-team-collaboration-app",
+            "link": "#full-stack-real-time-team-collaboration-app",
             "children": []
           }
         ]
@@ -231,51 +224,44 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "Languages & Core Frameworks",
-        "slug": "languages-core-frameworks",
-        "link": "#languages-core-frameworks",
+        "title": "Core Technologies Matrix",
+        "slug": "core-technologies-matrix",
+        "link": "#core-technologies-matrix",
         "children": []
       },
       {
         "level": 2,
-        "title": "Frontend & UI Styling",
-        "slug": "frontend-ui-styling",
-        "link": "#frontend-ui-styling",
+        "title": "Languages & Backend Ecosystem",
+        "slug": "languages-backend-ecosystem",
+        "link": "#languages-backend-ecosystem",
         "children": []
       },
       {
         "level": 2,
-        "title": "Database Management",
-        "slug": "database-management",
-        "link": "#database-management",
+        "title": "AI Engineering & Retrieval-Augmented Generation (RAG)",
+        "slug": "ai-engineering-retrieval-augmented-generation-rag",
+        "link": "#ai-engineering-retrieval-augmented-generation-rag",
         "children": []
       },
       {
         "level": 2,
-        "title": "Web API Architectures & Services",
-        "slug": "web-api-architectures-services",
-        "link": "#web-api-architectures-services",
+        "title": "Database Management & Caching",
+        "slug": "database-management-caching",
+        "link": "#database-management-caching",
         "children": []
       },
       {
         "level": 2,
-        "title": "Testing & Automation",
-        "slug": "testing-automation",
-        "link": "#testing-automation",
+        "title": "Real-Time Systems, Message Queues & Web APIs",
+        "slug": "real-time-systems-message-queues-web-apis",
+        "link": "#real-time-systems-message-queues-web-apis",
         "children": []
       },
       {
         "level": 2,
-        "title": "System Design & Background Jobs",
-        "slug": "system-design-background-jobs",
-        "link": "#system-design-background-jobs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Architecture & Version Control",
-        "slug": "architecture-version-control",
-        "link": "#architecture-version-control",
+        "title": "Quality Assurance, DevOps & Security",
+        "slug": "quality-assurance-devops-security",
+        "link": "#quality-assurance-devops-security",
         "children": []
       }
     ],
@@ -291,3 +277,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

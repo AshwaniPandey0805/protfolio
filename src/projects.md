@@ -1,59 +1,67 @@
 # Key Projects
 
-A detailed overview of key professional integrations and personal projects I have engineered.
+A detailed overview of featured systems, AI pipelines, and distributed applications I have engineered.
 
 ---
 
-## Professional Projects (Magento 2 / Adobe Commerce)
+## Featured AI & Distributed Projects
 
-### InPost Shipping Customization Module (Pigunio Marketplace)
-* **Description**: Built a custom Magento 2 carrier-shipping module from scratch to integrate checkout shipping selectors with InPost's delivery locker API.
-* **Key Features**:
-  - Displays dynamic shipping lockers, pick-up points, and carrier options during checkout.
-  - Integrates third-party carrier API callbacks for address lookup.
+### 1. AI Document Q&A Platform
+* **Architecture**: Full-Stack Single Page Application (React.js, Redux, Node.js, Express.js, MERN Stack)
+* **Core Technologies**: Vector Database, RAG Pipeline, Frontier LLM APIs, Text Embeddings, Firebase Auth, JWT, Zod Validation
 
-### Webkul_EtsyMagentoConnect Module (Etsy API Integration)
-* **Description**: Maintained and updated the Etsy integration module deployed on high-volume production stores.
-* **Key Features**:
-  - Updated the API client configuration to Etsy API v3, ensuring stable synchronization.
-  - Automated Etsy export/import processes for product listings, inventory sync, and orders.
+#### Overview
+An intelligent document interaction platform that enables users to upload extensive PDF/text documents and ask natural-language questions to receive immediate, context-grounded answers instead of manually searching through text.
 
-### Mobikul GraphQL API Modules (`MobikulAdminApiGraphql` & `MobikulApiGraphql`)
-* **Description**: Authored and optimized GraphQL queries and mutations that power the Mobikul Mobile E-commerce App.
-* **Key Features**:
-  - Engineered GraphQL schema and custom Magento 2 resolvers.
-  - Implemented JWT-based authentication with secure **refresh token** functionality, preventing unexpected customer logout events.
+#### Key Highlights & Engineering:
+- **Retrieval-Augmented Generation (RAG)**: Implemented an automated pipeline that ingests, cleans, and chunks uploaded documents into semantic vector embeddings.
+- **Vector Database Search**: Stored embeddings in a vector database and executed cosine similarity search to retrieve the most contextually relevant passages for any user query.
+- **Context-Aware LLM Synthesis**: Formatted dynamic prompts supplying the retrieved passages as ground-truth context to the LLM, eliminating hallucinations and ensuring factual answers.
+- **Robust Security & Validation**: Enforced multi-tier authentication using Firebase OAuth and JWT session management, with strict runtime request schema validation powered by **Zod**.
 
 ---
 
-## Professional Projects (Laravel & Vue.js)
+### 2. Distributed Job Processing & Monitoring Platform
+* **Architecture**: Event-Driven Asynchronous Microservices Backend
+* **Core Technologies**: Node.js, Express.js, Apache Kafka, Redis, Docker
+
+#### Overview
+A high-throughput, fault-tolerant background job distribution and execution platform designed to decouple heavy compute workloads (such as bulk transactional emails, PDF report generation, and data exports) from user-facing API threads.
+
+#### Key Highlights & Engineering:
+- **Message Queuing with Apache Kafka**: Utilized Kafka topic partitions as resilient distributed message queues to buffer and process high-volume background jobs asynchronously.
+- **Fault Tolerance & Exponential Retries**: Built automatic failure detection and retry mechanisms for intermittent task failures, routing persistent errors into dead-letter queues.
+- **Redis Caching & Idempotency**: Integrated Redis for fast status tracking, progress indicators, and distributed locks to prevent duplicate task execution across concurrent consumer workers.
+- **Containerized Deployment**: Fully containerized with **Docker** and Docker Compose to ensure a reproducible, portable local and production deployment environment.
+
+---
+
+### 3. Freelance Lead Hunter
+* **Architecture**: Real-Time Automation & Analytics Dashboard
+* **Core Technologies**: React.js, Redux, Apify Web Scraper, LLM APIs, MongoDB, Recharts
+
+#### Overview
+An automation and intelligence platform that aggregates freelance project listings from multiple developer boards, analyzes client job briefs, and provides actionable predictive analytics to maximize proposal acceptance rates.
+
+#### Key Highlights & Engineering:
+- **Automated Web Scraping via Apify**: Programmatically gathers fresh project leads across multiple freelance job portals using scheduled Apify actor crawlers.
+- **Extensible Source-Adapter Pattern**: Architected the lead ingestion pipeline using a modular adapter design pattern, making it effortless to add new job boards and data sources.
+- **LLM-Powered Proposal Drafting**: Integrated an LLM layer that parses incoming client requirements, matches them with past project experiences, and drafts tailored proposal cover letters for human review.
+- **Historical Outcome Analytics**: Embedded an AI analytical layer that evaluates historical win/loss data to surface actionable insights on which client budget tiers and technology tags correlate with higher success rates.
+- **Interactive Analytics Dashboard**: Built an interactive analytics view in **Recharts** backed by **MongoDB** aggregation pipelines to track weekly lead volumes, status transitions, and proposal acceptance metrics.
+
+---
+
+## Additional Systems & Integrations
 
 ### AlerTrax (IoT Asset-Tracking Platform)
-* **Description**: Contributed to the full-stack development of AlerTrax, a web portal and fleet tracking platform used for WiFi/LTE trailer and work-vehicle tracking.
-* **Key Features**:
-  - Integrated **Stripe API** for dynamic product subscriptions (monthly/yearly tiers).
-  - Maintained CRUD logic allowing fleet administrators to provision plans and link Stripe subscription IDs to specific hardware devices.
-  - Developed frontend dashboard views in **Vue.js**.
+* **Tech Stack**: Node.js, Express, React.js, Stripe API, IoT Telemetry
+* **Highlights**:
+  - Engineered backend Node.js APIs for mobile devices tracking GPS/telemetry hardware in real-time.
+  - Developed custom Stripe billing integration supporting multi-tier dynamic subscription models tied to device serial numbers.
 
-### Royo (E-Commerce Backend Support)
-* **Description**: Support engineer for client stores, debugging database latency and resolving custom gateway issues.
-* **Key Features**:
-  - Integrated **Stripe** and **CMI** payment gateways.
-  - Integrated **AWS S3** client wrapper to store media assets and product documents.
-
----
-
-## Personal Projects
-
-### Real Estate Web Application (MERN Stack)
-* **Tech Stack**: MongoDB, Express, React, Node.js, Firebase OAuth, JWT.
-* **Features**:
-  - Complete estate listings with search and filter parameters.
-  - Firebase OAuth for quick login.
-  - JWT token validation containing access & refresh token rotation for secure session persistence.
-
-### Online E-Commerce Shopping Cart (Laravel)
-* **Tech Stack**: Laravel, MySQL, jQuery, AJAX.
-* **Features**:
-  - Dynamic frontend rendering using REST endpoints and asynchronous AJAX requests.
-  - API collection for shopping cart updates, user authentication, and product listings.
+### Full-Stack Real-Time Team Collaboration App
+* **Tech Stack**: React.js, Redux Toolkit, Laravel REST APIs, Socket.IO, Firebase
+* **Highlights**:
+  - Implemented real-time bi-directional messaging and notification channels using Socket.IO WebSockets.
+  - Integrated Firebase push alerts for instant mobile and browser activity updates.

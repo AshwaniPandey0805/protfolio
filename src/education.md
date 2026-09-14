@@ -8,13 +8,14 @@ Academic background and milestones.
 **Dr. A.P.J. Abdul Kalam Technical University (AKTU)** | *August 2019 – July 2023*
 
 * **Major**: Information Technology
-* **Key Coursework & Focus**:
+* **Academic Performance**: CGPA 7.5 / 10.0
+* **Key Coursework & Major Subjects**:
   - Data Structures and Algorithms (DSA)
   - Object-Oriented Programming (OOPs)
   - Computer Networks
   - Operating Systems
   - Database Management Systems (DBMS)
-  - Languages: C, C++
+  - Core Languages: C, C++
 
 ---
 
