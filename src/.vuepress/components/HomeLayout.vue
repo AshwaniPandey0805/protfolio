@@ -610,19 +610,20 @@ onUnmounted(() => {
   display: grid;
   gap: 1.25rem;
   width: 100%;
+  min-width: 0;
 }
 
 .home-cards-grid--2col {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .home-cards-grid--3col {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 @media (max-width: 960px) {
   .home-cards-grid--3col {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -630,6 +631,7 @@ onUnmounted(() => {
   .home-cards-grid--2col,
   .home-cards-grid--3col {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
@@ -641,6 +643,9 @@ onUnmounted(() => {
   border-radius: 12px;
   padding: 1.5rem;
   box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
   transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -656,12 +661,15 @@ onUnmounted(() => {
   align-items: flex-start;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
+  min-width: 0;
 }
 
 .home-overview-card__identity {
   display: flex;
   align-items: center;
   gap: 0.85rem;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .home-company-logo {
@@ -675,11 +683,13 @@ onUnmounted(() => {
   padding: 3px;
   box-sizing: border-box;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  flex-shrink: 0;
 }
 
 .home-overview-card__titles {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .home-overview-card__title {
@@ -688,11 +698,13 @@ onUnmounted(() => {
   font-weight: 700 !important;
   color: var(--vp-c-brand) !important;
   line-height: 1.3 !important;
+  word-break: break-word;
 }
 
 .home-overview-card__meta {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.35rem;
   margin-top: 0.3rem;
   font-size: 0.85rem;
@@ -723,6 +735,46 @@ onUnmounted(() => {
   color: var(--vp-c-brand);
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+@media (max-width: 580px) {
+  .home-section {
+    margin-top: 2.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .home-section__title {
+    font-size: 1.45rem !important;
+  }
+
+  .home-overview-card {
+    padding: 1.15rem 1rem !important;
+  }
+
+  .home-overview-card__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+
+  .home-overview-card__identity {
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .home-company-logo {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+
+  .home-overview-card__title {
+    font-size: 1.05rem !important;
+  }
+
+  .home-overview-card__highlight {
+    align-self: flex-start;
+  }
 }
 
 .home-project-category {

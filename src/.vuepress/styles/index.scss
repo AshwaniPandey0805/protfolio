@@ -1521,21 +1521,32 @@ html.dark {
 .home-content-wrapper {
   padding: 0 24px;
   margin-bottom: 88px;
+  box-sizing: border-box;
+  max-width: 100%;
+
+  @media (max-width: 640px) {
+    padding: 0 16px !important;
+    margin-bottom: 48px;
+  }
 }
 
 .home-content-inner {
   max-width: 1060px;
+  width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 // ── Trust section ─────────────────────────────────────────
 .home-trust {
-  width: min(-52px + 100vw, 1060px);
+  width: 100% !important;
+  max-width: 1060px !important;
   display: flex;
   flex-direction: column;
-  transform: translateX(-50%);
-  margin: 0px auto 76px 50% !important;
-  padding: 0px !important;
+  transform: none !important;
+  margin: 0 auto 48px auto !important;
+  padding: 0 !important;
+  box-sizing: border-box;
 
   #home-trust-title {
     order: 1;
@@ -1691,10 +1702,12 @@ html.dark {
 
 // ── Guide cards section ───────────────────────────────────
 .home-learn {
-  width: min(-52px + 100vw, 1060px);
-  transform: translateX(-50%);
-  margin: 0px auto 0px 50% !important;
-  padding: 0px !important;
+  width: 100% !important;
+  max-width: 1060px !important;
+  transform: none !important;
+  margin: 0 auto 0 auto !important;
+  padding: 0 !important;
+  box-sizing: border-box;
 }
 
 .home-learn-grid {
