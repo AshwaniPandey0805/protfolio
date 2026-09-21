@@ -329,7 +329,7 @@ const technologies = [
   { name: 'PostgreSQL', subtitle: 'Relational DB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
   { name: 'MongoDB', subtitle: 'NoSQL Database', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
   { name: 'Redis', subtitle: 'Cache & Queue', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg' },
-  { name: 'Vector DB & RAG', subtitle: 'AI Embeddings', logo: 'https://img.icons8.com/color/48/neural-network.png' },
+  { name: 'Vector DB & RAG', subtitle: 'AI Embeddings', logo: 'https://static.pingcap.com/images/f54533cc-1000011158.svg?w=640&q=75' },
   { name: 'LLM APIs', subtitle: 'AI Engineering', logo: 'https://img.icons8.com/color/48/artificial-intelligence.png' },
   { name: 'Apache Kafka', subtitle: 'Message Streaming', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg' },
   { name: 'Socket.io', subtitle: 'Real-Time WebSockets', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' },
