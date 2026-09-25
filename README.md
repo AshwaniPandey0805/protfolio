@@ -4,22 +4,6 @@ This is the source code for my professional developer portfolio website. Built u
 
 ---
 
-## 📸 Portfolio Preview
-
-### 🖥️ Desktop Web Experience
-
-| 🌙 Dark Mode | ☀️ Light Mode |
-| :---: | :---: |
-| ![Desktop Web Dark Mode](images/readme_images/dark_mode.png) | ![Desktop Web Light Mode](images/readme_images/light_mode.jpeg) |
-
-### 📱 Responsive Mobile Experience
-
-| 🌙 Mobile Dark View | ☀️ Mobile Light View |
-| :---: | :---: |
-| <img src="images/readme_images/mobile_view_dark.jpeg" width="340" alt="Mobile Dark View" /> | <img src="images/readme_images/mobile_view_light.jpeg" width="340" alt="Mobile Light View" /> |
-
----
-
 ## 🛠️ Tech Stack & Frameworks
 - **Site Generator**: VuePress 2.x (Vite Bundler)
 - **Frontend Core**: Vue 3 (Composition API)

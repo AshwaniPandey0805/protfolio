@@ -19,30 +19,47 @@
           <a :href="withBase('/certifications.html')">Certifications</a>
         </nav>
 
-        <!-- Dark mode toggle -->
-        <button
-          class="home-navbar__theme-toggle"
-          :title="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
-          @click="toggleTheme"
-          aria-label="toggle color mode"
-        >
-          <!-- Sun icon -->
-          <svg v-if="!isDark" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"/>
-            <path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"/>
-            <path d="M2 15.005h5v2H2z" fill="currentColor"/>
-            <path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"/>
-            <path d="M15 25.005h2v5h-2z" fill="currentColor"/>
-            <path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"/>
-            <path d="M25 15.005h5v2-5z" fill="currentColor"/>
-            <path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"/>
-            <path d="M15 2.005h2v5h-2z" fill="currentColor"/>
-          </svg>
-          <!-- Moon icon -->
-          <svg v-else viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"/>
-          </svg>
-        </button>
+        <!-- Actions: GitHub + Dark mode toggle -->
+        <div class="home-navbar__actions">
+          <!-- GitHub repository link -->
+          <a
+            class="home-navbar__github"
+            href="https://github.com/AshwaniPandey0805/protfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="GitHub Repository"
+            aria-label="GitHub Repository"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+          </a>
+
+          <!-- Dark mode toggle -->
+          <button
+            class="home-navbar__theme-toggle"
+            :title="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+            @click="toggleTheme"
+            aria-label="toggle color mode"
+          >
+            <!-- Sun icon -->
+            <svg v-if="!isDark" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"/>
+              <path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"/>
+              <path d="M2 15.005h5v2H2z" fill="currentColor"/>
+              <path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"/>
+              <path d="M15 25.005h2v5h-2z" fill="currentColor"/>
+              <path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"/>
+              <path d="M25 15.005h5v2-5z" fill="currentColor"/>
+              <path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"/>
+              <path d="M15 2.005h2v5h-2z" fill="currentColor"/>
+            </svg>
+            <!-- Moon icon -->
+            <svg v-else viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"/>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -237,13 +254,67 @@
                   <span v-for="tech in proj.technologies" :key="tech" class="home-tag">{{ tech }}</span>
                 </div>
 
-                <div class="home-overview-card__footer">
-                  <a :href="withBase(proj.link)" class="home-link-btn" :aria-label="'View complete details for ' + proj.title">
-                    <span>View More</span>
-                    <svg viewBox="0 0 20 20" fill="currentColor" class="home-link-icon" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
+                <div class="home-overview-card__footer home-overview-card__footer--project">
+                  <!-- Resting state (default before hover) -->
+                  <div class="home-project-footer-resting">
+                    <span class="home-link-btn">
+                      <span>View More</span>
+                      <svg viewBox="0 0 20 20" fill="currentColor" class="home-link-icon" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                      </svg>
+                    </span>
+                  </div>
+
+                  <!-- Hover state (inline action icons) -->
+                  <div class="home-project-footer-actions" role="group" :aria-label="'Actions for ' + proj.title">
+                    <!-- 1. Live Project -->
+                    <a
+                      v-if="proj.live"
+                      :href="resolveLink(proj.live)"
+                      :target="isExternal(proj.live) ? '_blank' : '_self'"
+                      :rel="isExternal(proj.live) ? 'noopener noreferrer' : undefined"
+                      class="home-action-btn home-action-btn--live"
+                      :title="'Live Project Demo for ' + proj.title"
+                      :aria-label="'Live Project Demo for ' + proj.title"
+                    >
+                      <svg class="home-action-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="2" y1="12" x2="22" y2="12"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                      </svg>
+                      <span class="home-action-label">Live</span>
+                    </a>
+
+                    <!-- 2. GitHub -->
+                    <a
+                      v-if="proj.github"
+                      :href="resolveLink(proj.github)"
+                      :target="isExternal(proj.github) ? '_blank' : '_self'"
+                      :rel="isExternal(proj.github) ? 'noopener noreferrer' : undefined"
+                      class="home-action-btn home-action-btn--github"
+                      :title="'GitHub Repository for ' + proj.title"
+                      :aria-label="'GitHub Repository for ' + proj.title"
+                    >
+                      <svg class="home-action-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                      </svg>
+                      <span class="home-action-label">GitHub</span>
+                    </a>
+
+                    <!-- 3. View More (Documentation) -->
+                    <a
+                      :href="resolveLink(proj.link)"
+                      class="home-action-btn home-action-btn--more"
+                      :title="'Documentation Details for ' + proj.title"
+                      :aria-label="'Documentation Details for ' + proj.title"
+                    >
+                      <svg class="home-action-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                      </svg>
+                      <span class="home-action-label">View More</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -388,23 +459,42 @@ const projectsList = [
     category: 'AI & RAG Pipeline',
     description: 'Full-stack MERN SPA enabling natural-language document queries via automated semantic embeddings, vector database similarity search, and context-aware LLM synthesis with Zod validation.',
     technologies: ['React.js', 'Node.js', 'Vector DB', 'RAG Pipeline', 'LLM APIs', 'Zod'],
-    link: '/projects.html#_1-ai-document-q-a-platform'
+    link: '/projects.html#_1-ai-document-q-a-platform',
+    github: 'https://github.com/AshwaniPandey0805/devdoc-ai',
+    live: '#'
   },
   {
     title: 'Distributed Job Processing Platform',
     category: 'Event-Driven Microservices',
     description: 'High-throughput async task execution platform using Apache Kafka topic partitions to decouple compute-intensive jobs (bulk emails, reporting) with Redis distributed locks and Docker containers.',
     technologies: ['Node.js', 'Express', 'Apache Kafka', 'Redis', 'Docker'],
-    link: '/projects.html#_2-distributed-job-processing-monitoring-platform'
+    link: '/projects.html#_2-distributed-job-processing-monitoring-platform',
+    github: '#',
+    live: '#'
   },
   {
     title: 'Freelance Lead Hunter',
     category: 'Automation & Analytics',
     description: 'Real-time automation dashboard aggregating freelance project leads via Apify with an adapter pattern, LLM-powered proposal drafting, and Recharts + MongoDB conversion analytics.',
     technologies: ['React.js', 'Redux', 'Apify Scraper', 'LLM APIs', 'MongoDB', 'Recharts'],
-    link: '/projects.html#_3-freelance-lead-hunter'
+    link: '/projects.html#_3-freelance-lead-hunter',
+    github: '#',
+    live: '#'
   }
 ]
+
+const resolveLink = (url) => {
+  if (!url) return '#'
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('//') || url.startsWith('#')) {
+    return url
+  }
+  return withBase(url)
+}
+
+const isExternal = (url) => {
+  if (!url) return false
+  return url.startsWith('http://') || url.startsWith('https://') || url.startsWith('//')
+}
 
 const currentSlide = ref(0)
 const visibleColumns = ref(4)
@@ -621,7 +711,7 @@ onUnmounted(() => {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
   .home-cards-grid--3col {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -841,6 +931,146 @@ onUnmounted(() => {
 
 .home-overview-card:hover .home-link-icon {
   transform: translateX(4px);
+}
+
+/* ── Project Card Action Buttons on Hover ────────────────── */
+.home-overview-card--project {
+  position: relative;
+  padding: 1.4rem 1.25rem;
+}
+
+.home-overview-card__footer--project {
+  position: relative;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.home-project-footer-resting {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.home-project-footer-actions {
+  position: absolute;
+  top: 0.85rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateY(4px);
+  pointer-events: none;
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.home-overview-card--project:hover .home-project-footer-resting,
+.home-overview-card--project:focus-within .home-project-footer-resting {
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+}
+
+.home-overview-card--project:hover .home-project-footer-actions,
+.home-overview-card--project:focus-within .home-project-footer-actions {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.home-action-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.26rem;
+  padding: 0.4rem 0.42rem;
+  border-radius: 6px;
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-text);
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.home-action-btn--more {
+  flex: 1.25 1 auto;
+}
+
+.home-action-svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  transition: transform 0.18s ease;
+}
+
+.home-action-label {
+  line-height: 1;
+}
+
+.home-action-btn:hover {
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.home-action-btn:hover .home-action-svg {
+  transform: scale(1.12);
+}
+
+/* Button-specific accent styling */
+.home-action-btn--live:hover {
+  border-color: #0b6bff;
+  color: #0b6bff;
+  background: rgba(11, 107, 255, 0.08);
+}
+
+.home-action-btn--github:hover {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+  background: var(--vp-c-bg-elv);
+}
+
+.home-action-btn--more:hover {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+  background: var(--vp-c-bg-elv);
+}
+
+/* Dark mode specific tweaks */
+html[data-theme="dark"] .home-action-btn--live:hover,
+html.dark .home-action-btn--live:hover {
+  border-color: #3b82f6;
+  color: #60a5fa;
+  background: rgba(59, 130, 246, 0.12);
+}
+
+/* Touch & Mobile device optimization */
+@media (hover: none), (max-width: 680px) {
+  .home-project-footer-resting {
+    display: none !important;
+  }
+  .home-project-footer-actions {
+    position: static !important;
+    opacity: 1 !important;
+    transform: none !important;
+    pointer-events: auto !important;
+    width: 100%;
+  }
 }
 
 .home-section__more {

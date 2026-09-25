@@ -17,6 +17,7 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     logo: 'https://img.icons8.com/color/48/developer.png',
+    repo: 'https://github.com/AshwaniPandey0805/protfolio',
     sidebarDepth: 0,
     navbar: [
       { text: 'About Me', link: '/about.html' },
