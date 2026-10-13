@@ -74,7 +74,7 @@
             <span class="vp-hero-pretitle">BACKEND SOFTWARE DEVELOPER · NODE.JS · AI &amp; RAG SYSTEMS · LARAVEL</span>
             <h1 id="main-title">Ashwani Kumar Pandey</h1>
             <p class="vp-hero-description">
-              Backend Software Developer with 2 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
+              Backend Software Developer with 2.9 years of experience in API development, web features, and third-party integrations, along with a solid foundation in backend architecture. Exploring AI Engineering, with exposure to LLM APIs and RAG-based systems.
             </p>
             <p class="vp-hero-actions">
               <a class="vp-hero-action-button primary" :href="withBase('/about.html')" aria-label="Explore Profile">
