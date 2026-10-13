@@ -89,6 +89,21 @@ export const SEARCH_INDEX = [
             "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "Industry Training & Internship Certifications",
+        "slug": "industry-training-internship-certifications",
+        "link": "#industry-training-internship-certifications",
+        "children": [
+          {
+            "level": 3,
+            "title": "Software Developer Internship Certificate — Code Brew Labs Pvt. Ltd.",
+            "slug": "software-developer-internship-certificate-—-code-brew-labs-pvt-ltd",
+            "link": "#software-developer-internship-certificate-—-code-brew-labs-pvt-ltd",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/certifications.html",
@@ -207,9 +222,16 @@ export const SEARCH_INDEX = [
           },
           {
             "level": 3,
-            "title": "Full-Stack Real-Time Team Collaboration App",
-            "slug": "full-stack-real-time-team-collaboration-app",
-            "link": "#full-stack-real-time-team-collaboration-app",
+            "title": "Real-Time ERP & Team Collaboration Platform",
+            "slug": "real-time-erp-team-collaboration-platform",
+            "link": "#real-time-erp-team-collaboration-platform",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Shufflrr (Presentation Management & Sales Enablement Platform)",
+            "slug": "shufflrr-presentation-management-sales-enablement-platform",
+            "link": "#shufflrr-presentation-management-sales-enablement-platform",
             "children": []
           }
         ]
@@ -277,16 +299,3 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

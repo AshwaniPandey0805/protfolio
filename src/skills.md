@@ -12,7 +12,7 @@ A comprehensive overview of my programming languages, frameworks, developer tool
 | **Frontend & State Management** | React.js, Redux, Redux Toolkit, Next.js, Tailwind CSS, HTML5, CSS3 |
 | **AI Engineering & LLM Systems** | Vector Databases, Retrieval-Augmented Generation (RAG), LLM APIs, Text Embeddings |
 | **Databases & Caching** | PostgreSQL, MongoDB, MySQL, Redis, Vector Database (Semantic Search) |
-| **APIs, Messaging & Real-Time** | RESTful APIs, GraphQL, Socket.io, Firebase, Apache Kafka, Stripe API, Apify |
+| **APIs, Messaging & Real-Time** | RESTful APIs, GraphQL, Socket.io, Firebase, Apache Kafka, Stripe API, InPost API, CMI Gateway, Apify |
 | **DevOps, Cloud & Tooling** | AWS, Docker, CI/CD, Git, GitHub, Postman, Zod, Recharts |
 | **Testing & Automation** | Playwright (End-to-end testing), Jest (Unit & integration testing) |
 | **Architecture & Security** | OOP's, SOLID Principles, Role-Based Access Control (RBAC), JWT, OAuth |
@@ -48,7 +48,7 @@ A comprehensive overview of my programming languages, frameworks, developer tool
 * **Message Queues**: Apache Kafka for distributed asynchronous task processing (emails, reporting, background compute) with retry handling.
 * **Real-Time WebSockets**: Socket.io for bidirectional, event-driven communications (live collaboration & team chat).
 * **API Standards**: Designing schema-driven GraphQL endpoints and RESTful microservices; strict client request validation with Zod.
-* **Third-Party Integrations**: Stripe API (dynamic subscription billing & plan management), Firebase (real-time alerts & push notifications), and Apify (automated web scraping).
+* **Third-Party Integrations**: Stripe API (dynamic subscription billing & plan management), InPost Shipping API (automated locker selection & shipment creation), CMI Payment Gateway (secure transactions), Firebase (real-time alerts & push notifications), and Apify (automated web scraping).
 
 ---
 

@@ -60,8 +60,15 @@ An automation and intelligence platform that aggregates freelance project listin
   - Engineered backend Node.js APIs for mobile devices tracking GPS/telemetry hardware in real-time.
   - Developed custom Stripe billing integration supporting multi-tier dynamic subscription models tied to device serial numbers.
 
-### Full-Stack Real-Time Team Collaboration App
-* **Tech Stack**: React.js, Redux Toolkit, Laravel REST APIs, Socket.IO, Firebase
+### Real-Time ERP & Team Collaboration Platform
+* **Tech Stack**: React.js, Redux Toolkit, Node.js APIs, WebSockets, Firebase SDK, CMI Payment Gateway
 * **Highlights**:
-  - Implemented real-time bi-directional messaging and notification channels using Socket.IO WebSockets.
-  - Integrated Firebase push alerts for instant mobile and browser activity updates.
+  - Engineered a responsive React.js SPA with centralized Redux Toolkit state management and Node.js backend APIs.
+  - Implemented real-time team chat into the ERP using WebSockets and integrated Google sign-in via OAuth with Firebase SDK.
+  - Built a customer module featuring CMI payment gateway integration for secure online payments.
+
+### Shufflrr (Presentation Management & Sales Enablement Platform)
+* **Tech Stack**: Node.js, Web APIs, Client Engineering
+* **Highlights**:
+  - Resolved client-reported issues and bugs to ensure platform stability and reliable service delivery.
+  - Delivered backend functional enhancements for presentation management and sales enablement workflows.

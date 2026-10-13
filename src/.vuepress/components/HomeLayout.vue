@@ -350,7 +350,7 @@
                   <span class="home-guide-card__number">2</span>
                   <h2>Experience</h2>
                 </div>
-                <p>Explore my employment history at Webkul, Rudra Innovative, BrainGrid, and Code Brew Labs.</p>
+                <p>Explore my employment history at Webkul, Rudra Innovation Software, BrainGrid, and Code Brew Labs.</p>
                 <nav aria-label="Experience links">
                   <a :href="withBase('/experience.html')">Work Experience</a>
                   <a :href="withBase('/projects.html')">Key Projects</a>
@@ -414,40 +414,40 @@ const experienceList = [
   {
     role: 'Associate Software Engineer',
     company: 'Webkul Software Pvt. Ltd.',
-    period: 'Jan 2026 – Present',
-    badge: '70% Latency Drop',
+    period: 'Jan 2026 – Sept 2026',
+    badge: 'Microservices & 70% Latency Drop',
     logo: '/images/companies/webkul_logo.jpeg',
-    description: 'Developed Node.js mobile backend services and reduced API response times by 70% by architecting REST/GraphQL APIs optimized with Redis caching, PostgreSQL tuning, and async cron jobs.',
-    technologies: ['Node.js', 'PostgreSQL', 'Redis', 'GraphQL', 'Cron Jobs'],
+    description: 'Designed event-driven Node.js microservices & real-time chat/streaming for marketplace, built InPost shipping module, and cut API response times by 70% via Redis caching, PostgreSQL tuning, and cron jobs.',
+    technologies: ['Node.js', 'Microservices', 'PostgreSQL', 'Redis', 'InPost API', 'Cron Jobs'],
     link: '/experience.html#associate-software-engineer'
   },
   {
     role: 'Junior Software Engineer',
-    company: 'Rudra Innovative Software',
+    company: 'Rudra Innovation Software Pvt. Ltd.',
     period: 'Jul 2025 – Dec 2025',
-    badge: 'IoT & Payments',
+    badge: 'IoT & Stripe Billing',
     logo: '/images/companies/rudrainnovative_logo.jpeg',
-    description: 'Engineered Node.js backend APIs for the AlerTrax mobile tracking app, built React.js live tracking dashboards, and developed Stripe recurring subscription billing modules.',
+    description: 'Developed Node.js backend APIs and React.js admin dashboard to display live device tracking from mobile app, and built Stripe-based pricing plans and subscription management.',
     technologies: ['Node.js', 'React.js', 'Stripe API', 'IoT Telemetry'],
     link: '/experience.html#junior-software-engineer'
   },
   {
     role: 'Web Developer',
     company: 'BrainGrid Technology Pvt. Ltd.',
-    period: 'Jul 2024 – Jul 2025',
-    badge: 'Real-Time Web',
+    period: 'Dec 2023 – Jul 2025',
+    badge: 'Full-Stack & Payments',
     logo: '/images/companies/BrainGridTechnology.jpeg',
-    description: 'Built full-stack applications with React.js frontend and Laravel backend APIs, incorporating Redux Toolkit state management, real-time Socket.IO chat, and Firebase notifications.',
-    technologies: ['React.js', 'Laravel', 'Redux Toolkit', 'Socket.IO', 'Firebase'],
+    description: 'Built responsive React.js SPA with Redux Toolkit and Node.js APIs, added real-time ERP chat with WebSockets, Google OAuth via Firebase, CMI payment gateway, and enhanced Shufflrr platform.',
+    technologies: ['React.js', 'Node.js', 'Redux Toolkit', 'WebSockets', 'Firebase OAuth', 'CMI Gateway'],
     link: '/experience.html#web-developer'
   },
   {
     role: 'Software Developer Intern',
-    company: 'Code Brew Labs',
-    period: 'Dec 2023 – Jul 2024',
+    company: 'Code Brew Labs Pvt. Ltd.',
+    period: 'Dec 2022 – May 2023',
     badge: 'Core Foundations',
     logo: '/images/companies/Code_brew_Lab.jpeg',
-    description: 'Resolved application bugs and improved system stability as part of the support team, mastering MVC design patterns, Laravel debugging tools, and Git workflows.',
+    description: 'Resolved application bugs and improved system stability, gaining practical experience in MVC design patterns, RESTful APIs, debugging tools, and Git workflows under senior mentorship.',
     technologies: ['PHP', 'Laravel', 'MVC Architecture', 'Git', 'Debugging'],
     link: '/experience.html#software-developer-intern'
   }

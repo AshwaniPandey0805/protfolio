@@ -28,3 +28,12 @@ Professional certifications, specialized technical training, and system competen
 
 ### Advanced Full-Stack & API Engineering
 * **Focus Areas**: Node.js & Express microservices, Laravel backend architecture, React.js state management with Redux Toolkit, Socket.IO real-time websockets, and automated testing via Playwright & Jest.
+
+---
+
+## Industry Training & Internship Certifications
+
+### Software Developer Internship Certificate — Code Brew Labs Pvt. Ltd.
+* **Duration**: December 2022 – May 2023
+* **Focus Areas**: Software engineering fundamentals, MVC architecture, backend debugging, and Git collaboration workflows.
+* **Outcome**: Successfully completed internship tenure contributing to bug resolution and core application stability.
